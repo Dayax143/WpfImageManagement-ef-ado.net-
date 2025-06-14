@@ -1,0 +1,9 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="WpfEFProfile.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="sqlConnection" Type="System.String" Scope="User">
+      <Value Profile="(Default)">server=.; database=testFeature; user id=sa;  password=123; trustservercertificate=true; </Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

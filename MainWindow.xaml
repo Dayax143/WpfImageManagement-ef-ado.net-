@@ -1,0 +1,26 @@
+﻿<Window x:Class="WpfEFProfile.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="480" Width="800">
+    <Grid Margin="0,0,0,-38">
+        <StackPanel Margin="20">
+            <TextBlock Text="Name:"/>
+            <TextBox Name="txtName" />
+
+            <TextBlock Text="Quantity:"/>
+            <TextBox Name="txtQuantity" />
+
+            <TextBlock Text="Audit User:"/>
+            <TextBox Name="txtAuditUser" />
+
+            <TextBlock Text="Profile Image:"/>
+            <Button Name="btnUploadImage" Content="Upload Image" Click="btnUploadImage_Click"/>
+            <Image Name="imgProfile" Width="100" Height="100"/>
+
+            <Button Name="btnSave" Content="Save Record" Click="btnSave_Click"/>
+            <Image Name="viewProfile" Width="100" Height="100"/>
+            <TextBox x:Name="txtLoad" Width="100" />
+            <Button Name="btnView" Content="View" Width="100" Click="btnView_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>
