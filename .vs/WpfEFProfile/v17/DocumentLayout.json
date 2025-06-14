@@ -7,16 +7,20 @@
       "RelativeMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|f:\\software development\\hwa dev\\wpfefprofile\\ef\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|solutionrelative:ef\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|f:\\software development\\hwa dev\\wpfefprofile\\ef\\myappcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|solutionrelative:ef\\myappcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|F:\\Software Development\\HWA DEV\\WpfEFProfile\\properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}",
+      "RelativeMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|solutionrelative:properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|f:\\software development\\hwa dev\\wpfefprofile\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|f:\\software development\\hwa dev\\wpfefprofile\\wpfefprofile.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|solutionrelative:wpfefprofile.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|f:\\software development\\hwa dev\\wpfefprofile\\properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}",
-      "RelativeMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|solutionrelative:properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,11 +30,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Test.cs",
+              "DocumentMoniker": "F:\\Software Development\\HWA DEV\\WpfEFProfile\\EF\\Test.cs",
+              "RelativeDocumentMoniker": "EF\\Test.cs",
+              "ToolTip": "F:\\Software Development\\HWA DEV\\WpfEFProfile\\EF\\Test.cs",
+              "RelativeToolTip": "EF\\Test.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T05:34:37.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MyAppContext.cs",
+              "DocumentMoniker": "F:\\Software Development\\HWA DEV\\WpfEFProfile\\EF\\MyAppContext.cs",
+              "RelativeDocumentMoniker": "EF\\MyAppContext.cs",
+              "ToolTip": "F:\\Software Development\\HWA DEV\\WpfEFProfile\\EF\\MyAppContext.cs",
+              "RelativeToolTip": "EF\\MyAppContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T05:32:42.518Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -46,19 +76,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "WpfEFProfile",
-              "DocumentMoniker": "F:\\Software Development\\HWA DEV\\WpfEFProfile\\WpfEFProfile.csproj",
-              "RelativeDocumentMoniker": "WpfEFProfile.csproj",
-              "ToolTip": "F:\\Software Development\\HWA DEV\\WpfEFProfile\\WpfEFProfile.csproj",
-              "RelativeToolTip": "WpfEFProfile.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-06-14T05:00:41.282Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "F:\\Software Development\\HWA DEV\\WpfEFProfile\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
@@ -76,7 +94,7 @@
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
               "ToolTip": "F:\\Software Development\\HWA DEV\\WpfEFProfile\\MainWindow.xaml.cs",
               "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAASwC8AAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAAAEwAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-14T04:25:07.701Z",
               "EditorCaption": ""

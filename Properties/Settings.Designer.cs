@@ -25,14 +25,26 @@ namespace WpfEFProfile.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("server=.; database=testFeature; user id=sa;  password=123; trustservercertificate" +
-            "=true; ")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Server=.; Database=testFeature; user id=sa; password=123; trustservercertificate=" +
+            "true")]
         public string sqlConnection {
             get {
                 return ((string)(this["sqlConnection"]));
             }
             set {
                 this["sqlConnection"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("audit")]
+        public string audit_user {
+            get {
+                return ((string)(this["audit_user"]));
+            }
+            set {
+                this["audit_user"] = value;
             }
         }
     }

@@ -3,7 +3,10 @@
   <Profiles />
   <Settings>
     <Setting Name="sqlConnection" Type="System.String" Scope="User">
-      <Value Profile="(Default)">server=.; database=testFeature; user id=sa;  password=123; trustservercertificate=true; </Value>
+      <Value Profile="(Default)">Server=.; Database=testFeature; user id=sa; password=123; trustservercertificate=true</Value>
+    </Setting>
+    <Setting Name="audit_user" Type="System.String" Scope="User">
+      <Value Profile="(Default)">audit</Value>
     </Setting>
   </Settings>
 </SettingsFile>
