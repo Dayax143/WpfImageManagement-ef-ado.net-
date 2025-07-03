@@ -54,7 +54,6 @@ namespace WpfEFProfile.Services
 			}
 		}
 
-
 		public void Execute_Queries(string _query)
 		{
 			using (SqlConnection con = new SqlConnection(connectionString))

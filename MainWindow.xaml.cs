@@ -37,7 +37,7 @@ namespace WpfEFProfile
                     {
                         cmd.Parameters.AddWithValue("@name", txtName.Text);
                         cmd.Parameters.AddWithValue("@quantity", int.Parse(txtQuantity.Text));
-                        cmd.Parameters.AddWithValue("@audit_user", txtAuditUser.Text);
+                        cmd.Parameters.AddWithValue("@audit_user", Properties.Settings.Default.audit_user);
 
                         // Convert image to byte array
                         byte[] imageBytes = File.ReadAllBytes(imagePath); // Assume imagePath stores uploaded file path
@@ -77,6 +77,7 @@ namespace WpfEFProfile
                     Audit_User = Properties.Settings.Default.audit_user,
                     Profile = imageBytes
                 };
+
 
                 await context.test.AddAsync(newProfile);
                 await context.SaveChangesAsync();
