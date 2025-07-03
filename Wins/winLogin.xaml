@@ -1,0 +1,26 @@
+﻿<Window x:Class="WpfEFProfile.Wins.winLogin"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Login" Height="350" Width="400" ResizeMode="NoResize"
+        WindowStartupLocation="CenterScreen" Background="LightGray">
+    <Grid>
+        <TextBlock Text="Welcome" FontSize="22" FontWeight="Bold" Foreground="Black"
+                   HorizontalAlignment="Left" Margin="137,46,0,-27"/>
+
+        <!-- Username -->
+        <TextBlock Text="Username:" Margin="76,113,0,-34" HorizontalAlignment="Left"/>
+        <TextBox x:Name="UsernameTextBox" Width="250" Height="30"
+                 HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,139,0,0"/>
+
+        <!-- Password -->
+        <TextBlock Text="Password:" Margin="76,169,0,-39" HorizontalAlignment="Left"/>
+        <PasswordBox x:Name="PasswordBox" Width="250" Height="30"
+                     HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,189,0,0"/>
+
+        <!-- Login Button -->
+        <Button x:Name="btnLogin" Content="Login" Width="100" Height="35"
+                HorizontalAlignment="Left" VerticalAlignment="Top"
+                Margin="225,236,0,0" Background="#FF2A5782" Foreground="White"
+                FontWeight="Bold" Click="btnLogin_Click" />
+    </Grid>
+</Window>
