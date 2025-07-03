@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-D:\2025NEW_DATA\SOFTWARE DEVELOPMENT 2025\UNVERIFIED\DEV IN GITS\WpfImageManagement-ef-ado.net- (+setup)\obj\Debug\net9.0-windows\
+F:\Software Development\HWA DEV\2025  devs\WpfImageManagement-ef-ado.net-\obj\Debug\net9.0-windows\
 WpfEFProfile
 none
 false
-TRACE;DEBUG;NET;NET9_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NET9_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
-D:\2025NEW_DATA\SOFTWARE DEVELOPMENT 2025\UNVERIFIED\DEV IN GITS\WpfImageManagement-ef-ado.net- (+setup)\App.xaml
+TRACE;DEBUG;NET;NET9_0;NETCOREAPP
+F:\Software Development\HWA DEV\2025  devs\WpfImageManagement-ef-ado.net-\App.xaml
 321640108
 
 15-1955572495
-2291814836656
+2291092798838
 MainWindow.xaml;Wins\winConfig.xaml;Wins\winLogin.xaml;
 
 False

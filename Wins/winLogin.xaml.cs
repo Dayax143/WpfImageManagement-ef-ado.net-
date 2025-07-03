@@ -60,7 +60,7 @@ namespace WpfEFProfile.Wins
 
 		public void loginFunction(string username, string password)
 		{
-			using (SqlConnection con = new SqlConnection("Server=rt\\rtser; Database=wbh_minisystem; user id=sa; password=sa@123; trustservercertificate=true"))
+			using (SqlConnection con = new SqlConnection(connectionString))
 			{
 				try
 				{
