@@ -25,6 +25,8 @@ Scaffold-DbContext "Server=.;Database=MyDb;Trusted_Connection=True;" Microsoft.E
 | List migrations | Get-Migrations | dotnet ef migrations list | 
 | Generate SQL script | Script-Migration | dotnet ef migrations script | 
 
+Add-Migration InitSqlite -Context SqliteContext
+Update-Database -Context SqliteContext
 
 Example:
 
@@ -32,5 +34,9 @@ Add-Migration InitialCreate
 Update-Database
 
 
+
+dotnet tool install --global dotnet-ef
+
+Install-Package Microsoft.AspNetCore.Cryptography.KeyDerivation
 
 

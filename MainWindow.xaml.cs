@@ -1,17 +1,9 @@
-﻿using Microsoft.Win32;
+﻿using Microsoft.Data.SqlClient;
+using Microsoft.Win32;
+using System.IO;
 using System.Windows;
 using System.Windows.Media.Imaging;
-using Microsoft.Data.SqlClient;
-using System.IO;
 using WpfEFProfile.EF;
-using System;
-using Microsoft.EntityFrameworkCore;
-using System.Diagnostics.Metrics;
-using System.Windows.Documents;
-using static System.Runtime.InteropServices.JavaScript.JSType;
-using System.Runtime.Intrinsics.X86;
-using System.Threading;
-using System.Windows.Interop;
 
 namespace WpfEFProfile
 {
@@ -20,13 +12,13 @@ namespace WpfEFProfile
     /// </summary>
     public partial class MainWindow : Window
     {
+        string con = Properties.Settings.Default.sqlConnection;
+        MyAppContext context = new MyAppContext();
         public MainWindow()
         {
             InitializeComponent();
         }
-      
-        string con = Properties.Settings.Default.sqlConnection;
-        MyAppContext context = new MyAppContext();
+
 
         //🔹 Function 3 (Raw SQL Execution)
         //✅ Direct SQL execution is faster for large inserts.
@@ -69,33 +61,34 @@ namespace WpfEFProfile
         //✅ Efficient image reading(File.ReadAllBytesAsync()), improving responsiveness.
         //✅ Uses modern EF features (AddAsync()) for better performance.
         //✅ Transaction management, meaning partial inserts wont happen.
+        //❌ Direct SQL execution is faster for large inserts.
         public async Task InsertProfileAsync()
         {
-            using (var transaction = await context.Database.BeginTransactionAsync())
+            using var transaction = await context.Database.BeginTransactionAsync();
+
+            try
             {
-                try
+                byte[] imageBytes = await File.ReadAllBytesAsync(imagePath);  // Efficient async read
+
+                Test newProfile = new Test
                 {
-                    byte[] imageBytes = await File.ReadAllBytesAsync(imagePath);  // Asynchronously read image
+                    Name = txtName.Text.Trim(),
+                    Quantity = int.TryParse(txtQuantity.Text, out int qty) ? qty : throw new Exception("Invalid quantity."),
+                    Audit_User = Properties.Settings.Default.audit_user,
+                    Profile = imageBytes
+                };
 
-                    Test newProfile = new Test
-                    {
-                        Name = txtName.Text,
-                        Quantity = int.Parse(txtQuantity.Text),
-                        Audit_User = Properties.Settings.Default.audit_user,
-                        Profile = imageBytes
-                    };
+                await context.test.AddAsync(newProfile);
+                await context.SaveChangesAsync();
 
-                    await context.test.AddAsync(newProfile);
-                    await context.SaveChangesAsync();
+                await transaction.CommitAsync();  // Ensure transaction is committed
 
-                    MessageBox.Show("Successfully inserted!");
-                    await transaction.CommitAsync();
-                }
-                catch (Exception ex)
-                {
-                    await transaction.RollbackAsync();
-                    MessageBox.Show(ex.Message, "Transaction rolled back");
-                }
+                MessageBox.Show("Successfully inserted!");
+            }
+            catch (Exception ex)
+            {
+                await transaction.RollbackAsync();  // Rollback on failure
+                MessageBox.Show($"Error: {ex.InnerException?.Message ?? ex.Message}");
             }
         }
 
@@ -159,45 +152,45 @@ namespace WpfEFProfile
 
         private async void btnSave_Click(object sender, RoutedEventArgs e)
         {
-           await InsertProfileAsync();
+            await InsertProfileAsync();
         }
 
-        public void loadProfileImageAdonet( int id)
+        public void loadProfileImageAdonet(int id)
         {
-            byte[] imageBytes = null;
-
-            using (SqlConnection conn = new SqlConnection(con))
             {
-                string query = "SELECT profile FROM test WHERE id = @id";
-                using (SqlCommand cmd = new SqlCommand(query, conn))
+                try
                 {
-                    cmd.Parameters.AddWithValue("@id", id);
-                    conn.Open();
-                    var result = cmd.ExecuteScalar();
-                    if (result != DBNull.Value)
+                    using (var context = new MyAppContext())
                     {
-                        imageBytes = (byte[])result;
+                        var imageBytes = context.test
+                                                .Where(t => t.Id == id)
+                                                .Select(t => t.Profile)
+                                                .FirstOrDefault();
+
+                        if (imageBytes != null)
+                        {
+                            using (MemoryStream ms = new MemoryStream(imageBytes))
+                            {
+                                BitmapImage bitmap = new BitmapImage();
+                                bitmap.BeginInit();
+                                bitmap.StreamSource = ms;
+                                bitmap.CacheOption = BitmapCacheOption.OnLoad;
+                                bitmap.EndInit();
+                                viewProfile.Source = bitmap; // Assign the image to the Image control
+                            }
+                        }
                     }
                 }
-            }
-
-            if (imageBytes != null)
-            {
-                using (MemoryStream ms = new MemoryStream(imageBytes))
+                catch (Exception ex)
                 {
-                    BitmapImage bitmap = new BitmapImage();
-                    bitmap.BeginInit();
-                    bitmap.StreamSource = ms;
-                    bitmap.CacheOption = BitmapCacheOption.OnLoad;
-                    bitmap.EndInit();
-                    viewProfile.Source = bitmap;  // Assign the image to your Image control
+                    MessageBox.Show(ex.Message);
                 }
             }
         }
 
         private void btnView_Click(object sender, RoutedEventArgs e)
         {
-           loadProfileImageAdonet(int.Parse(txtLoad.Text));
+            loadProfileImageAdonet(int.Parse(txtLoad.Text));
         }
     }
 }

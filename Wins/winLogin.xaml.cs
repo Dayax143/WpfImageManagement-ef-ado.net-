@@ -23,7 +23,8 @@ namespace WpfEFProfile.Wins
 
 
 		//from the app.xaml connection
-		string connectionString = Properties.Settings.Default.sqlConnection;
+		//string connectionString = Properties.Settings.Default.sqlConnection;
+		string connectionString = "Server=.; Database=wbh_minisystem; user id=sa; password=123; trustservercertificate=true";
 
 
 		//this for loading the methods for database operations
@@ -76,7 +77,7 @@ namespace WpfEFProfile.Wins
 					{
 						MessageBox.Show("Login Successful!", "Success", MessageBoxButton.OK, MessageBoxImage.Information);
 						MainWindow winDashboard = new MainWindow();
-						saveSession("Success");
+						//saveSession("Success");
 						Hide();
 						winDashboard.Show();
 						Close();
@@ -84,7 +85,7 @@ namespace WpfEFProfile.Wins
 					else
 					{
 						MessageBox.Show("Invalid credentials. Try again.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
-						saveSession("Failed");
+						//saveSession("Failed");
 					}
 				}
 				catch (Exception ex)

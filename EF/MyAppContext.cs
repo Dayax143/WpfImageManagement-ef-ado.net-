@@ -4,10 +4,11 @@ namespace WpfEFProfile.EF
 {
     public class MyAppContext : DbContext
     {
-        //string connectionString = Properties.Settings.Default.sqlConnection;
+        string connectionString = Properties.Settings.Default.sqlConnection;
+        //string connectionString = "Server=IT-PC2; Database=wbh_minisystem; user id=sa; password=123; trustservercertificate=true";
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=rt\\rtser; Database=testDB; user id=sa; password=sa@123; trustservercertificate=true");
+            optionsBuilder.UseSqlServer(connectionString);
         }
 
         public DbSet<Test> test { get; set; }
