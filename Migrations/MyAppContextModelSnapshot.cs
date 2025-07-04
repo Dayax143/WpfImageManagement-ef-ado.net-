@@ -44,6 +44,71 @@ namespace WpfEFProfile.Migrations
                     b.ToTable("sessions");
                 });
 
+            modelBuilder.Entity("WpfEFProfile.EF.TblLora", b =>
+                {
+                    b.Property<int>("LoraId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("LoraId"));
+
+                    b.Property<string>("CorSupply")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("Date")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("LoraSerial")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ReceiptRv")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Refference")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Status")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("LoraId");
+
+                    b.ToTable("TblLora");
+                });
+
+            modelBuilder.Entity("WpfEFProfile.EF.TblUser", b =>
+                {
+                    b.Property<int>("UserId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("UserId"));
+
+                    b.Property<string>("PassWord")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("PasswordHash")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("RecoveryAnswer")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("RecoveryQuestion")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("UserName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("UserStatus")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Usertype")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("UserId");
+
+                    b.ToTable("TblUser");
+                });
+
             modelBuilder.Entity("WpfEFProfile.EF.Test", b =>
                 {
                     b.Property<int>("Id")

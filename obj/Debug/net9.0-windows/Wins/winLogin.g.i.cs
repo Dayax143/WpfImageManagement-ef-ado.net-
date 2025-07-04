@@ -76,7 +76,7 @@ namespace WpfEFProfile.Wins {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/WpfEFProfile;V1.0.0.0;component/wins/winlogin.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/WpfEFProfile;component/wins/winlogin.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Wins\winLogin.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

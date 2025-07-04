@@ -1,9 +1,10 @@
 ﻿using Microsoft.Data.SqlClient;
 using System.Windows;
 using System.Windows.Controls;
-using WpfEFProfile.Services;
 using WpfEFProfile;
 using WpfEFProfile.EF;
+using WpfEFProfile.ModelsWbh;
+using WpfEFProfile.Services;
 
 namespace WpfEFProfile.Wins
 {
@@ -61,37 +62,37 @@ namespace WpfEFProfile.Wins
 
 		public void loginFunction(string username, string password)
 		{
-			using (SqlConnection con = new SqlConnection(connectionString))
+			using var context = new MyAppContext();
+
+			try
 			{
-				try
-				{
-					string query = "SELECT COUNT(*) FROM tblUser WHERE Username = @username AND PasswordHash = @password";
+				// Hash the incoming password (assuming SHA-256)
+				string passwordHash = Convert.ToHexString(
+					System.Security.Cryptography.SHA256.Create().ComputeHash(
+						System.Text.Encoding.UTF8.GetBytes(password)));
 
-					SqlCommand cmd = new SqlCommand(query, con);
-					cmd.Parameters.AddWithValue("@username", username);
-					cmd.Parameters.AddWithValue("@password", password); // Consider hashing passwords!
-					con.Open();
-					int userExists = (int)cmd.ExecuteScalar();
+				var userExists = context.TblUser
+					.Any(u => u.UserName == username && u.PassWord == password);
 
-					if (userExists > 0)
-					{
-						MessageBox.Show("Login Successful!", "Success", MessageBoxButton.OK, MessageBoxImage.Information);
-						MainWindow winDashboard = new MainWindow();
-						saveSession("Success");
-						Hide();
-						winDashboard.Show();
-						Close();
-					}
-					else
-					{
-						MessageBox.Show("Invalid credentials. Try again.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
-						saveSession("Failed");
-					}
-				}
-				catch (Exception ex)
+				if (userExists)
 				{
-					MessageBox.Show(ex.Message);
+					MessageBox.Show("Login Successful!", "Success", MessageBoxButton.OK, MessageBoxImage.Information);
+
+					MainWindow winDashboard = new MainWindow();
+					saveSession("Success");
+					Hide();
+					winDashboard.Show();
+					Close();
 				}
+				else
+				{
+					MessageBox.Show("Invalid credentials. Try again.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+					saveSession("Failed");
+				}
+			}
+			catch (Exception ex)
+			{
+				MessageBox.Show(ex.Message);
 			}
 		}
 

@@ -1,20 +1,11 @@
 ﻿
-🏗️ Scaffolding Commands (Reverse Engineering)
-| Task | PMC Command | .NET CLI Command | 
-| Scaffold entire database | Scaffold-DbContext "YourConnectionString" Provider | dotnet ef dbcontext scaffold "YourConnectionString" Provider | 
-| Scaffold specific tables | -Tables Table1,Table2 | -t Table1 -t Table2 | 
-| Use data annotations | -DataAnnotations | --data-annotations | 
-| Output to folder | -OutputDir Models | -o Models | 
-| Specify context name | -Context MyContext | -c MyContext | 
-
-Example (SQL Server):
-
-Scaffold-DbContext "Server=.;Database=MyDb;Trusted_Connection=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models -Tables Users -Context MyContext
-
-
+⚙️ Scaffolding Command
+Scaffold-DbContext "Server=rt\rtser;Database=wbh_minisystem;User Id=sa;Password=sa@123;TrustServerCertificate=true" Microsoft.EntityFrameworkCore.SqlServer -OutputDir ModelsWbh -Tables tblUser -Context WbhContext
 
 
 
+
+
 
 
 🧱 Migration Commands (Forward Engineering)
