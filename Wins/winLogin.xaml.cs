@@ -24,6 +24,7 @@ namespace WpfEFProfile.Wins
 
 		//from the app.xaml connection
 		string connectionString = Properties.Settings.Default.sqlConnection;
+		//string connectionString = "Server=.; Database=wbh_minisystem; user id=sa; password=123; trustservercertificate=true";
 
 
 		//this for loading the methods for database operations
@@ -60,11 +61,11 @@ namespace WpfEFProfile.Wins
 
 		public void loginFunction(string username, string password)
 		{
-			using (SqlConnection con = new SqlConnection("Server=rt\\rtser; Database=wbh_minisystem; user id=sa; password=sa@123; trustservercertificate=true"))
+			using (SqlConnection con = new SqlConnection(connectionString))
 			{
 				try
 				{
-					string query = "SELECT COUNT(*) FROM tblUser WHERE Username = @username AND Password = @password";
+					string query = "SELECT COUNT(*) FROM tblUser WHERE Username = @username AND PasswordHash = @password";
 
 					SqlCommand cmd = new SqlCommand(query, con);
 					cmd.Parameters.AddWithValue("@username", username);

@@ -11,9 +11,6 @@
             <TextBlock Text="Quantity:"/>
             <TextBox Name="txtQuantity" />
 
-            <TextBlock Text="Audit User:"/>
-            <TextBox Name="txtAuditUser" />
-
             <TextBlock Text="Profile Image:"/>
             <Button Name="btnUploadImage" Content="Upload Image" Click="btnUploadImage_Click"/>
             <Image Name="imgProfile" Width="100" Height="100"/>

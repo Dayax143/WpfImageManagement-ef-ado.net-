@@ -1,0 +1,42 @@
+﻿
+🏗️ Scaffolding Commands (Reverse Engineering)
+| Task | PMC Command | .NET CLI Command | 
+| Scaffold entire database | Scaffold-DbContext "YourConnectionString" Provider | dotnet ef dbcontext scaffold "YourConnectionString" Provider | 
+| Scaffold specific tables | -Tables Table1,Table2 | -t Table1 -t Table2 | 
+| Use data annotations | -DataAnnotations | --data-annotations | 
+| Output to folder | -OutputDir Models | -o Models | 
+| Specify context name | -Context MyContext | -c MyContext | 
+
+Example (SQL Server):
+
+Scaffold-DbContext "Server=.;Database=MyDb;Trusted_Connection=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models -Tables Users -Context MyContext
+
+
+
+
+
+
+
+🧱 Migration Commands (Forward Engineering)
+| Task | PMC Command | .NET CLI Command | 
+| Add migration | Add-Migration MigrationName | dotnet ef migrations add MigrationName | 
+| Remove last migration | Remove-Migration | dotnet ef migrations remove | 
+| Apply migration to DB | Update-Database | dotnet ef database update | 
+| List migrations | Get-Migrations | dotnet ef migrations list | 
+| Generate SQL script | Script-Migration | dotnet ef migrations script | 
+
+Add-Migration InitSqlite -Context SqliteContext
+Update-Database -Context SqliteContext
+
+Example:
+
+Add-Migration InitialCreate
+Update-Database
+
+
+
+dotnet tool install --global dotnet-ef
+
+Install-Package Microsoft.AspNetCore.Cryptography.KeyDerivation
+
+
