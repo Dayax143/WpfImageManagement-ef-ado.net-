@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WpfEFProfile")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+70a73848c0c6046041735e170a70ac0b9d8254cc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+516e7498a2dcb18946bfc04d8a18468ca86ae5af")]
 [assembly: System.Reflection.AssemblyProductAttribute("WpfEFProfile")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WpfEFProfile")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
