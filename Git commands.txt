@@ -1,0 +1,19 @@
+﻿🧭 Option 1: You want to save your changes before pulling
+Run the following to stash everything temporarily:
+git stash
+git pull origin main
+git stash pop
+
+
+📦 Option 2: You’re ready to commit your changes
+Just commit them before pulling:
+git add .
+git commit -m "Save local changes before pulling"
+git pull origin main
+
+
+🗑️ Option 3: You want to discard local changes
+⚠️ Be careful! This wipes your local edits.
+git reset --hard
+git pull origin main
+
