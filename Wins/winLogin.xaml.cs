@@ -71,17 +71,27 @@ namespace WpfEFProfile.Wins
 					System.Security.Cryptography.SHA256.Create().ComputeHash(
 						System.Text.Encoding.UTF8.GetBytes(password)));
 
-				var userExists = context.TblUser
-					.Any(u => u.UserName == username && u.PassWord == password);
+				// Find the user with the given username and password
+				var user = context.TblUser
+					.FirstOrDefault(u => u.UserName == username && u.PassWord == password);
 
-				if (userExists)
+				if (user != null)
 				{
 					MessageBox.Show("Login Successful!", "Success", MessageBoxButton.OK, MessageBoxImage.Information);
 
-					MainWindow winDashboard = new MainWindow();
+					Window dashboard;
+					if (user.Usertype != null && user.Usertype.Equals("admin", StringComparison.OrdinalIgnoreCase))
+					{
+						dashboard = new winAdmin(); // Make sure winAdmin exists and is imported
+					}
+					else
+					{
+						dashboard = new MainWindow();
+					}
+
 					saveSession("Success");
 					Hide();
-					winDashboard.Show();
+					dashboard.Show();
 					Close();
 				}
 				else

@@ -7,6 +7,9 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="winAdmin.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Wins\winConfig.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
