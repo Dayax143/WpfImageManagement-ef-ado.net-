@@ -196,7 +196,7 @@ namespace WpfEFProfile {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/WpfEFProfile;component/winadmin.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/WpfEFProfile;V1.0.0.0;component/winadmin.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\winAdmin.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

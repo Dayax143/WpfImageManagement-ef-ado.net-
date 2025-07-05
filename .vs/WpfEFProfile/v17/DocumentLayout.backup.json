@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|f:\\software development\\hwa dev\\2025  devs\\wpfimagemanagement-ef-ado.net-\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|f:\\software development\\hwa dev\\2025  devs\\wpfimagemanagement-ef-ado.net-\\winadmin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|solutionrelative:winadmin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|f:\\software development\\hwa dev\\2025  devs\\wpfimagemanagement-ef-ado.net-\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|f:\\software development\\hwa dev\\2025  devs\\wpfimagemanagement-ef-ado.net-\\winmedia.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|solutionrelative:winmedia.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|f:\\software development\\hwa dev\\2025  devs\\wpfimagemanagement-ef-ado.net-\\winmedia.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
       "RelativeMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|solutionrelative:winmedia.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|f:\\software development\\hwa dev\\2025  devs\\wpfimagemanagement-ef-ado.net-\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|f:\\software development\\hwa dev\\2025  devs\\wpfimagemanagement-ef-ado.net-\\ef\\tblmedia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,16 +31,8 @@
       "RelativeMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|solutionrelative:ef\\myappcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|f:\\software development\\hwa dev\\2025  devs\\wpfimagemanagement-ef-ado.net-\\winadmin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|solutionrelative:winadmin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|f:\\software development\\hwa dev\\2025  devs\\wpfimagemanagement-ef-ado.net-\\winadmin.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
       "RelativeMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|solutionrelative:winadmin.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|f:\\software development\\hwa dev\\2025  devs\\wpfimagemanagement-ef-ado.net-\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|f:\\software development\\hwa dev\\2025  devs\\wpfimagemanagement-ef-ado.net-\\app.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
@@ -180,7 +180,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Bookmark",
@@ -188,7 +188,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "winMedia.xaml.cs",
               "DocumentMoniker": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\winMedia.xaml.cs",
               "RelativeDocumentMoniker": "winMedia.xaml.cs",
@@ -196,17 +196,16 @@
               "RelativeToolTip": "winMedia.xaml.cs",
               "ViewState": "AgIAAIcAAAAAAAAAAAAswK4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-05T07:31:10.518Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-05T07:31:10.518Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "winMedia.xaml",
               "DocumentMoniker": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\winMedia.xaml",
               "RelativeDocumentMoniker": "winMedia.xaml",
-              "ToolTip": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\winMedia.xaml",
-              "RelativeToolTip": "winMedia.xaml",
+              "ToolTip": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\winMedia.xaml*",
+              "RelativeToolTip": "winMedia.xaml*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-07-05T07:30:23.485Z",
               "EditorCaption": ""
@@ -237,7 +236,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "tblMedia.cs",
               "DocumentMoniker": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\EF\\tblMedia.cs",
               "RelativeDocumentMoniker": "EF\\tblMedia.cs",
@@ -249,7 +248,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "winAdmin.xaml.cs",
               "DocumentMoniker": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\winAdmin.xaml.cs",
               "RelativeDocumentMoniker": "winAdmin.xaml.cs",
@@ -273,7 +272,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "MyAppContext.cs",
               "DocumentMoniker": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\EF\\MyAppContext.cs",
               "RelativeDocumentMoniker": "EF\\MyAppContext.cs",
@@ -285,14 +284,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "winAdmin.xaml",
               "DocumentMoniker": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\winAdmin.xaml",
               "RelativeDocumentMoniker": "winAdmin.xaml",
               "ToolTip": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\winAdmin.xaml",
               "RelativeToolTip": "winAdmin.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-05T04:17:59.189Z"
+              "WhenOpened": "2025-07-05T04:17:59.189Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -307,18 +307,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
               "ToolTip": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\MainWindow.xaml",
               "RelativeToolTip": "MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-05T04:17:59.189Z"
+              "WhenOpened": "2025-07-05T04:17:59.189Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "App.xaml",
               "DocumentMoniker": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\App.xaml",
               "RelativeDocumentMoniker": "App.xaml",
