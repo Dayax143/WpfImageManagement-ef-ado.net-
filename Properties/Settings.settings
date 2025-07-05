@@ -8,5 +8,8 @@
     <Setting Name="audit_user" Type="System.String" Scope="User">
       <Value Profile="(Default)"> Annonymous</Value>
     </Setting>
+    <Setting Name="BackupFolderPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
   </Settings>
 </SettingsFile>

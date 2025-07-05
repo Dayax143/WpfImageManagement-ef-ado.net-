@@ -15,16 +15,16 @@ namespace WpfEFProfile
         {
             base.OnStartup(e);
 
-            if (ConnectionClass.IsConnectionValid())
-            {
-                var loginWindow = new winLogin();
-                loginWindow.Show();
-            }
-            else
-            {
-                var configWindow = new winConfig();
-                configWindow.Show();
-            }
+            //if (ConnectionClass.IsConnectionValid())
+            //{
+            //    var loginWindow = new winLogin();
+            //    loginWindow.Show();
+            //}
+            //else
+            //{
+            //    var configWindow = new winConfig();
+            //    configWindow.Show();
+            //}
 
             //var configWindow = new winAdmin();
             //configWindow.Show();

@@ -50,15 +50,16 @@
 
             <!-- Backup and Restore -->
             <UniformGrid Columns="2" HorizontalAlignment="Center" Margin="0,0,0,10">
-                <Button x:Name="btnBackup" Content="Backup" Width="100" Margin="5" />
-                <Button x:Name="btnRestore" Content="Restore" Width="100" Margin="5" />
+                <Button x:Name="btnBackup" Content="Backup" Width="100" Margin="5" Click="btnBrowseFolder_Click" />
+                <Button x:Name="btnRestore" Content="Restore" Width="100" Margin="5" Click="btnRestore_Click"/>
             </UniformGrid>
 
             <!-- Image Load Section -->
             <GroupBox Header="Test Profile Image" Margin="0,0,0,0">
-                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="10">
-                    <Button x:Name="btnLoadImage" Content="Load Image" Width="100" Margin="5" Click="btnLoadImage_Click" />
-                    <Image x:Name="imgTestProfile" Width="200" Height="200" Margin="10" />
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="10">  
+                   <Button x:Name="btnLoadImage" Content="Load Image" Width="100" Margin="5" Click="btnLoadImage_Click" />
+                    <Button x:Name="btnBrowseImage" Content="Browse" Width="100" Margin="5" Click="btnBrowseFolder_Click" />  
+                   <Image x:Name="imgTestProfile" Width="200" Height="200" Margin="10" />  
                 </StackPanel>
             </GroupBox>
         </StackPanel>

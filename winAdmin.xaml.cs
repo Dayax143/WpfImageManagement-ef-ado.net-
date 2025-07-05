@@ -1,4 +1,6 @@
-﻿using Microsoft.Win32;
+﻿using Microsoft.Data.SqlClient;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Win32;
 using System.IO;
 using System.Windows;
 using System.Windows.Media.Imaging;
@@ -172,6 +174,171 @@ namespace WpfEFProfile
             {
                 MessageBox.Show($"An error occurred: {ex.Message}");
             }
+        }
+
+
+        // function database
+        public void BackupDatabase(string backupFile)
+        {
+            try
+            {
+                string backupQuery = $"BACKUP DATABASE [testDB] TO DISK = '{backupFile}' WITH FORMAT;";
+
+                using var context = new MyAppContext();
+                context.Database.ExecuteSqlRaw(backupQuery);
+
+                MessageBox.Show($"Backup completed! File saved at: {backupFile}");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
+
+
+        // browse button
+        private void btnBrowseFolder_Click(object sender, RoutedEventArgs e)
+        {
+            DateTime date = DateTime.Now;
+            string formattedDate = date.ToString("yyyy_MM_dd_HH_mm_ss"); // Ensures a clean file name
+            string defaultFolder = Properties.Settings.Default.BackupFolderPath; // Retrieve previous path
+
+            // Ask the user whether to save in the default folder or choose a new path
+            MessageBoxResult result = MessageBox.Show(
+                $"Do you want to save the backup in the default folder?\n(Default: {defaultFolder})",
+                "Backup Confirmation",
+                MessageBoxButton.YesNoCancel,
+                MessageBoxImage.Question
+            );
+
+            string backupFilePath;
+
+            if (result == MessageBoxResult.Yes)
+            {
+                if (!string.IsNullOrEmpty(defaultFolder) && Directory.Exists(defaultFolder))
+                {
+                    // Save backup automatically in default folder
+                    backupFilePath = Path.Combine(defaultFolder, $"testDB_{formattedDate}.bak");
+                }
+                else
+                {
+                    MessageBox.Show("The default backup folder is not set or does not exist.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                    return;
+                }
+            }
+            else if (result == MessageBoxResult.No)
+            {
+                var dialog = new SaveFileDialog
+                {
+                    Filter = "Backup Files (*.bak)|*.bak",
+                    FileName = $"testDB_{formattedDate}.bak"
+                };
+
+                if (dialog.ShowDialog() == true)
+                {
+                    backupFilePath = dialog.FileName;
+                    Properties.Settings.Default.BackupFolderPath = Path.GetDirectoryName(dialog.FileName);
+                    Properties.Settings.Default.Save(); // Save the updated path
+
+                    //lblDefaultPath.Text = backupFilePath;
+                }
+                else
+                {
+                    return; // Exit if the user cancels the dialog
+                }
+            }
+            else
+            {
+                return; // Exit if the user cancels the confirmation dialog
+            }
+
+            // Proceed with the backup
+            BackupDatabase(backupFilePath);
+
+        }
+
+
+        // this is restore function
+        private void RestoreDatabase(string backupFile)
+        {
+            try
+            {
+                string connectionString = "server=.; database=master; user id=sa; password=123; trustservercertificate=true;";
+                using (SqlConnection con = new SqlConnection(connectionString))
+                {
+                    con.Open();
+
+                    // Check if the database exists
+                    string checkDbQuery = "IF DB_ID('testDB') IS NOT NULL SELECT 1 ELSE SELECT 0;";
+                    using (SqlCommand checkCmd = new SqlCommand(checkDbQuery, con))
+                    {
+                        int dbExists = (int)checkCmd.ExecuteScalar();
+
+                        string restoreQuery;
+                        if (dbExists == 1)
+                        {
+                            // Database exists, replace it
+                            restoreQuery = @$"
+                            ALTER DATABASE [testDB] SET SINGLE_USER WITH ROLLBACK IMMEDIATE;
+                            RESTORE DATABASE [testDB] FROM DISK = '{backupFile}' WITH REPLACE;
+                            ALTER DATABASE [testDB] SET MULTI_USER;";
+                        }
+                        else
+                        {
+                            // Database does not exist, restore directly
+                            restoreQuery = @$"
+                            RESTORE DATABASE [testDB] FROM DISK = '{backupFile}' WITH REPLACE;";
+                        }
+
+                        using (SqlCommand restoreCmd = new SqlCommand(restoreQuery, con))
+                        {
+                            restoreCmd.ExecuteNonQuery();
+                        }
+
+                        MessageBox.Show($"Database restoration completed successfully! from\\ {backupFile}");
+                    }
+                }
+            }
+            catch (SqlException ex)
+            {
+                MessageBox.Show($"SQL Error: {ex.Message}");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Unexpected Error: {ex.Message}");
+            }
+        }
+
+        private void btnRestore_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                var dialog = new Microsoft.Win32.OpenFileDialog
+                {
+                    Filter = "Backup files (*.bak)|*.bak",
+                };
+
+                if (dialog.ShowDialog() == true)
+                {
+                    var path = dialog.FileName;
+                    RestoreDatabase(path);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
+
+
+        private void btnBackup_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnBrowseImage_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

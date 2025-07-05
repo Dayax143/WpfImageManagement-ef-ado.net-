@@ -100,7 +100,7 @@ namespace WpfEFProfile.Wins {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/WpfEFProfile;V1.0.0.0;component/wins/winconfig.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/WpfEFProfile;component/wins/winconfig.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Wins\winConfig.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
