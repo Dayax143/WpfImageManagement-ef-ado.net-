@@ -1,0 +1,38 @@
+﻿<Window x:Class="WpfEFProfile.winMedia"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Media Uploader" Height="600" Width="800">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Upload Controls -->
+        <StackPanel Orientation="Horizontal" Margin="0,0,0,10">
+            <Button Content="Browse" Click="Browse_Click" Width="100" Margin="0,0,10,0"/>
+            <Button Content="Upload" Click="Upload_Click" Width="100"/>
+        </StackPanel>
+
+        <StackPanel Grid.Row="1" Margin="0,0,0,10">
+            <TextBlock Text="File Name:"/>
+            <TextBox x:Name="txtFileName"/>
+            <TextBlock Text="Mime Type:"/>
+            <TextBox x:Name="txtMimeType"/>
+            <TextBlock Text="Description:"/>
+            <TextBox x:Name="txtDescription"/>
+        </StackPanel>
+
+        <!-- Retrieval Controls -->
+        <StackPanel Grid.Row="2" Orientation="Horizontal" Margin="0,10,0,10">
+            <Button Content="Load Media List" Click="LoadMedia_Click" Width="120"/>
+            <Button Content="Play Selected" Click="PlaySelected_Click" Width="120" Margin="10,0,0,0"/>
+            <Button Content="Save to Disk" Click="SaveSelected_Click" Width="120" Margin="10,0,0,0"/>
+        </StackPanel>
+
+        <!-- Media List -->
+        <ListBox x:Name="lstMedia" Grid.Row="3" DisplayMemberPath="FileName"/>
+    </Grid>
+</Window>

@@ -25,8 +25,7 @@ namespace WpfEFProfile.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("Server=rt\\rtser; Database=testDB; user id=sa; password=sa@123; trustservercertifi" +
-            "cate=true")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Server=.; Database=testDB; user id=sa; password=123; trustservercertificate=true")]
         public string sqlConnection {
             get {
                 return ((string)(this["sqlConnection"]));

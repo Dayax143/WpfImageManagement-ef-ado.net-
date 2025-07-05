@@ -581,3 +581,5 @@ F:\Software Development\HWA DEV\2025  devs\WpfImageManagement-ef-ado.net-\obj\De
 F:\Software Development\HWA DEV\2025  devs\WpfImageManagement-ef-ado.net-\obj\Debug\net9.0-windows\userWinControl\uProductView.g.cs
 F:\Software Development\HWA DEV\2025  devs\WpfImageManagement-ef-ado.net-\obj\Debug\net9.0-windows\WpfEFProfile_MarkupCompile.lref
 F:\Software Development\HWA DEV\2025  devs\WpfImageManagement-ef-ado.net-\obj\Debug\net9.0-windows\userWinControl\uProductView.baml
+F:\Software Development\HWA DEV\2025  devs\WpfImageManagement-ef-ado.net-\obj\Debug\net9.0-windows\winMedia.baml
+F:\Software Development\HWA DEV\2025  devs\WpfImageManagement-ef-ado.net-\obj\Debug\net9.0-windows\winMedia.g.cs

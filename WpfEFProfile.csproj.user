@@ -13,6 +13,9 @@
     <Compile Update="winAdmin.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="winMedia.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Wins\winConfig.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -25,6 +28,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="userWinControl\uProductView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="winMedia.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

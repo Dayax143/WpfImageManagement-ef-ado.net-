@@ -16,5 +16,6 @@ namespace WpfEFProfile.EF
         public DbSet<TblUser> TblUser { get; set; }    
         public DbSet<TblLora> TblLora { get; set; }    
 
-	}
+        public DbSet<tblMedia> tblMedia { get; set; } 
+    }
 }
