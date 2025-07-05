@@ -19,6 +19,7 @@
             <Image Name="viewProfile" Width="100" Height="100"/>
             <TextBox x:Name="txtLoad" Width="100" />
             <Button Name="btnView" Content="View" Width="100" Click="btnView_Click"/>
+            <Button Name="btnManage" Content="Manage products" Width="200" Height="60" Click="btnManage_Click"/>
         </StackPanel>
     </Grid>
 </Window>

@@ -25,6 +25,9 @@ namespace WpfEFProfile
                 var configWindow = new winConfig();
                 configWindow.Show();
             }
+
+            //var configWindow = new winAdmin();
+            //configWindow.Show();
         }
     }
 }

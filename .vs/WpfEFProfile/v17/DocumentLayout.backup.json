@@ -1,152 +1,148 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\2025NEW_DATA\\SOFTWARE DEVELOPMENT 2025\\UNVERIFIED\\DEV IN GITS\\WpfImageManagement-ef-ado.net- (\u002Bsetup)\\",
+  "WorkspaceRootPath": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|d:\\2025new_data\\software development 2025\\unverified\\dev in gits\\wpfimagemanagement-ef-ado.net- (\u002Bsetup)\\winadmin.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
-      "RelativeMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|solutionrelative:winadmin.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|d:\\2025new_data\\software development 2025\\unverified\\dev in gits\\wpfimagemanagement-ef-ado.net- (\u002Bsetup)\\app.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "AbsoluteMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|f:\\software development\\hwa dev\\2025  devs\\wpfimagemanagement-ef-ado.net-\\app.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
       "RelativeMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|solutionrelative:app.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|d:\\2025new_data\\software development 2025\\unverified\\dev in gits\\wpfimagemanagement-ef-ado.net- (\u002Bsetup)\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|f:\\software development\\hwa dev\\2025  devs\\wpfimagemanagement-ef-ado.net-\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|D:\\2025NEW_DATA\\SOFTWARE DEVELOPMENT 2025\\UNVERIFIED\\DEV IN GITS\\WpfImageManagement-ef-ado.net- (\u002Bsetup)\\properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}",
-      "RelativeMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|solutionrelative:properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|d:\\2025new_data\\software development 2025\\unverified\\dev in gits\\wpfimagemanagement-ef-ado.net- (\u002Bsetup)\\ef\\myappcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|solutionrelative:ef\\myappcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|d:\\2025new_data\\software development 2025\\unverified\\dev in gits\\wpfimagemanagement-ef-ado.net- (\u002Bsetup)\\wins\\winlogin.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "AbsoluteMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|f:\\software development\\hwa dev\\2025  devs\\wpfimagemanagement-ef-ado.net-\\wins\\winlogin.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
       "RelativeMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|solutionrelative:wins\\winlogin.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|d:\\2025new_data\\software development 2025\\unverified\\dev in gits\\wpfimagemanagement-ef-ado.net- (\u002Bsetup)\\wins\\winlogin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|f:\\software development\\hwa dev\\2025  devs\\wpfimagemanagement-ef-ado.net-\\wins\\winlogin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|solutionrelative:wins\\winlogin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|f:\\software development\\hwa dev\\2025  devs\\wpfimagemanagement-ef-ado.net-\\userwincontrol\\uproductview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|solutionrelative:userwincontrol\\uproductview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|f:\\software development\\hwa dev\\2025  devs\\wpfimagemanagement-ef-ado.net-\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|f:\\software development\\hwa dev\\2025  devs\\wpfimagemanagement-ef-ado.net-\\winadmin.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|solutionrelative:winadmin.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|f:\\software development\\hwa dev\\2025  devs\\wpfimagemanagement-ef-ado.net-\\winadmin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|solutionrelative:winadmin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|f:\\software development\\hwa dev\\2025  devs\\wpfimagemanagement-ef-ado.net-\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|f:\\software development\\hwa dev\\2025  devs\\wpfimagemanagement-ef-ado.net-\\wins\\winconfig.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|solutionrelative:wins\\winconfig.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|f:\\software development\\hwa dev\\2025  devs\\wpfimagemanagement-ef-ado.net-\\ef\\tbluser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|solutionrelative:ef\\tbluser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|f:\\software development\\hwa dev\\2025  devs\\wpfimagemanagement-ef-ado.net-\\excluded files\\packagemanager_commands.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|solutionrelative:excluded files\\packagemanager_commands.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|f:\\software development\\hwa dev\\2025  devs\\wpfimagemanagement-ef-ado.net-\\excluded files\\comparison ef functions (efficiency).txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|solutionrelative:excluded files\\comparison ef functions (efficiency).txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|f:\\software development\\hwa dev\\2025  devs\\wpfimagemanagement-ef-ado.net-\\excluded files\\git commands.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|solutionrelative:excluded files\\git commands.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|f:\\software development\\hwa dev\\2025  devs\\wpfimagemanagement-ef-ado.net-\\ef\\myappcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|solutionrelative:ef\\myappcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rtu\\AppData\\Local\\Temp\\.vsdbgsrc\\b49ace08f4cd26a4f275d628999a0f91ccb8a1892704530d9e6f5bd1284082f1\\ResourcePart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|d:\\2025new_data\\software development 2025\\unverified\\dev in gits\\wpfimagemanagement-ef-ado.net- (\u002Bsetup)\\services\\connectionclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|f:\\software development\\hwa dev\\2025  devs\\wpfimagemanagement-ef-ado.net-\\services\\connectionclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|solutionrelative:services\\connectionclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|d:\\2025new_data\\software development 2025\\unverified\\dev in gits\\wpfimagemanagement-ef-ado.net- (\u002Bsetup)\\wins\\winconfig.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|f:\\software development\\hwa dev\\2025  devs\\wpfimagemanagement-ef-ado.net-\\wins\\winconfig.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|solutionrelative:wins\\winconfig.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|d:\\2025new_data\\software development 2025\\unverified\\dev in gits\\wpfimagemanagement-ef-ado.net- (\u002Bsetup)\\wins\\winconfig.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|solutionrelative:wins\\winconfig.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|d:\\2025new_data\\software development 2025\\unverified\\dev in gits\\wpfimagemanagement-ef-ado.net- (\u002Bsetup)\\winadmin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|solutionrelative:winadmin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|d:\\2025new_data\\software development 2025\\unverified\\dev in gits\\wpfimagemanagement-ef-ado.net- (\u002Bsetup)\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|d:\\2025new_data\\software development 2025\\unverified\\dev in gits\\wpfimagemanagement-ef-ado.net- (\u002Bsetup)\\migrations\\myappcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|f:\\software development\\hwa dev\\2025  devs\\wpfimagemanagement-ef-ado.net-\\migrations\\myappcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|solutionrelative:migrations\\myappcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|d:\\2025new_data\\software development 2025\\unverified\\dev in gits\\wpfimagemanagement-ef-ado.net- (\u002Bsetup)\\migrations\\20250702162023_test_table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|f:\\software development\\hwa dev\\2025  devs\\wpfimagemanagement-ef-ado.net-\\migrations\\20250702162023_test_table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|solutionrelative:migrations\\20250702162023_test_table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|d:\\2025new_data\\software development 2025\\unverified\\dev in gits\\wpfimagemanagement-ef-ado.net- (\u002Bsetup)\\migrations\\20250703102051_sessions_table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|f:\\software development\\hwa dev\\2025  devs\\wpfimagemanagement-ef-ado.net-\\migrations\\20250703102051_sessions_table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|solutionrelative:migrations\\20250703102051_sessions_table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|d:\\2025new_data\\software development 2025\\unverified\\dev in gits\\wpfimagemanagement-ef-ado.net- (\u002Bsetup)\\migrations\\20250703102353_sessions_table_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|f:\\software development\\hwa dev\\2025  devs\\wpfimagemanagement-ef-ado.net-\\migrations\\20250703102353_sessions_table_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|solutionrelative:migrations\\20250703102353_sessions_table_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|d:\\2025new_data\\software development 2025\\unverified\\dev in gits\\wpfimagemanagement-ef-ado.net- (\u002Bsetup)\\migrations\\20250703103018_sessions_table_3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|f:\\software development\\hwa dev\\2025  devs\\wpfimagemanagement-ef-ado.net-\\migrations\\20250703103018_sessions_table_3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|solutionrelative:migrations\\20250703103018_sessions_table_3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|d:\\2025new_data\\software development 2025\\unverified\\dev in gits\\wpfimagemanagement-ef-ado.net- (\u002Bsetup)\\migrations\\20250704163048_tbluser_to_testdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|solutionrelative:migrations\\20250704163048_tbluser_to_testdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|d:\\2025new_data\\software development 2025\\unverified\\dev in gits\\wpfimagemanagement-ef-ado.net- (\u002Bsetup)\\migrations\\20250704163645_tbluser_totestdb1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|f:\\software development\\hwa dev\\2025  devs\\wpfimagemanagement-ef-ado.net-\\migrations\\20250704163645_tbluser_totestdb1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|solutionrelative:migrations\\20250704163645_tbluser_totestdb1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|d:\\2025new_data\\software development 2025\\unverified\\dev in gits\\wpfimagemanagement-ef-ado.net- (\u002Bsetup)\\migrations\\20250704163937_tbluser_totestdb2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|f:\\software development\\hwa dev\\2025  devs\\wpfimagemanagement-ef-ado.net-\\migrations\\20250704163937_tbluser_totestdb2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|solutionrelative:migrations\\20250704163937_tbluser_totestdb2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|d:\\2025new_data\\software development 2025\\unverified\\dev in gits\\wpfimagemanagement-ef-ado.net- (\u002Bsetup)\\migrations\\20250704180732_tbluser_update1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|f:\\software development\\hwa dev\\2025  devs\\wpfimagemanagement-ef-ado.net-\\migrations\\20250704180732_tbluser_update1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|solutionrelative:migrations\\20250704180732_tbluser_update1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|d:\\2025new_data\\software development 2025\\unverified\\dev in gits\\wpfimagemanagement-ef-ado.net- (\u002Bsetup)\\migrations\\20250704184318_scaffolded_loratable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|f:\\software development\\hwa dev\\2025  devs\\wpfimagemanagement-ef-ado.net-\\migrations\\20250704184318_scaffolded_loratable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|solutionrelative:migrations\\20250704184318_scaffolded_loratable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|d:\\2025new_data\\software development 2025\\unverified\\dev in gits\\wpfimagemanagement-ef-ado.net- (\u002Bsetup)\\migrations\\20250704184449_scaffolded_loratable1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|f:\\software development\\hwa dev\\2025  devs\\wpfimagemanagement-ef-ado.net-\\migrations\\20250704184449_scaffolded_loratable1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|solutionrelative:migrations\\20250704184449_scaffolded_loratable1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|d:\\2025new_data\\software development 2025\\unverified\\dev in gits\\wpfimagemanagement-ef-ado.net- (\u002Bsetup)\\ef\\tbllora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|f:\\software development\\hwa dev\\2025  devs\\wpfimagemanagement-ef-ado.net-\\ef\\tbllora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|solutionrelative:ef\\tbllora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|d:\\2025new_data\\software development 2025\\unverified\\dev in gits\\wpfimagemanagement-ef-ado.net- (\u002Bsetup)\\wbhloramodels\\wbhlora1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|f:\\software development\\hwa dev\\2025  devs\\wpfimagemanagement-ef-ado.net-\\wbhloramodels\\wbhlora1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|solutionrelative:wbhloramodels\\wbhlora1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|d:\\2025new_data\\software development 2025\\unverified\\dev in gits\\wpfimagemanagement-ef-ado.net- (\u002Bsetup)\\wpfefprofile.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|f:\\software development\\hwa dev\\2025  devs\\wpfimagemanagement-ef-ado.net-\\wpfefprofile.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|solutionrelative:wpfefprofile.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|d:\\2025new_data\\software development 2025\\unverified\\dev in gits\\wpfimagemanagement-ef-ado.net- (\u002Bsetup)\\wbh_minisystem_scaffold\\forproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|f:\\software development\\hwa dev\\2025  devs\\wpfimagemanagement-ef-ado.net-\\wbh_minisystem_scaffold\\forproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|solutionrelative:wbh_minisystem_scaffold\\forproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|d:\\2025new_data\\software development 2025\\unverified\\dev in gits\\wpfimagemanagement-ef-ado.net- (\u002Bsetup)\\ef\\tbluser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|solutionrelative:ef\\tbluser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|d:\\2025new_data\\software development 2025\\unverified\\dev in gits\\wpfimagemanagement-ef-ado.net- (\u002Bsetup)\\excluded files\\packagemanager_commands.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|solutionrelative:excluded files\\packagemanager_commands.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|d:\\2025new_data\\software development 2025\\unverified\\dev in gits\\wpfimagemanagement-ef-ado.net- (\u002Bsetup)\\ef\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|f:\\software development\\hwa dev\\2025  devs\\wpfimagemanagement-ef-ado.net-\\ef\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|solutionrelative:ef\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|d:\\2025new_data\\software development 2025\\unverified\\dev in gits\\wpfimagemanagement-ef-ado.net- (\u002Bsetup)\\excluded files\\comparison ef functions (efficiency).txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|solutionrelative:excluded files\\comparison ef functions (efficiency).txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|d:\\2025new_data\\software development 2025\\unverified\\dev in gits\\wpfimagemanagement-ef-ado.net- (\u002Bsetup)\\excluded files\\git commands.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|solutionrelative:excluded files\\git commands.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|d:\\2025new_data\\software development 2025\\unverified\\dev in gits\\wpfimagemanagement-ef-ado.net- (\u002Bsetup)\\ef\\sessions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|f:\\software development\\hwa dev\\2025  devs\\wpfimagemanagement-ef-ado.net-\\ef\\sessions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|solutionrelative:ef\\sessions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|d:\\2025new_data\\software development 2025\\unverified\\dev in gits\\wpfimagemanagement-ef-ado.net- (\u002Bsetup)\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|d:\\2025new_data\\software development 2025\\unverified\\dev in gits\\wpfimagemanagement-ef-ado.net- (\u002Bsetup)\\services\\dbquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|f:\\software development\\hwa dev\\2025  devs\\wpfimagemanagement-ef-ado.net-\\services\\dbquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|solutionrelative:services\\dbquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|d:\\2025new_data\\software development 2025\\unverified\\dev in gits\\wpfimagemanagement-ef-ado.net- (\u002Bsetup)\\modelswbh1\\wbhcontext1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|f:\\software development\\hwa dev\\2025  devs\\wpfimagemanagement-ef-ado.net-\\modelswbh1\\wbhcontext1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|solutionrelative:modelswbh1\\wbhcontext1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -157,461 +153,452 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 2,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "20250703103018_sessions_table_3.cs",
-              "DocumentMoniker": "D:\\2025NEW_DATA\\SOFTWARE DEVELOPMENT 2025\\UNVERIFIED\\DEV IN GITS\\WpfImageManagement-ef-ado.net- (\u002Bsetup)\\Migrations\\20250703103018_sessions_table_3.cs",
-              "RelativeDocumentMoniker": "Migrations\\20250703103018_sessions_table_3.cs",
-              "ToolTip": "D:\\2025NEW_DATA\\SOFTWARE DEVELOPMENT 2025\\UNVERIFIED\\DEV IN GITS\\WpfImageManagement-ef-ado.net- (\u002Bsetup)\\Migrations\\20250703103018_sessions_table_3.cs",
-              "RelativeToolTip": "Migrations\\20250703103018_sessions_table_3.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-04T16:42:38.036Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "winLogin.xaml",
-              "DocumentMoniker": "D:\\2025NEW_DATA\\SOFTWARE DEVELOPMENT 2025\\UNVERIFIED\\DEV IN GITS\\WpfImageManagement-ef-ado.net- (\u002Bsetup)\\Wins\\winLogin.xaml",
-              "RelativeDocumentMoniker": "Wins\\winLogin.xaml",
-              "ToolTip": "D:\\2025NEW_DATA\\SOFTWARE DEVELOPMENT 2025\\UNVERIFIED\\DEV IN GITS\\WpfImageManagement-ef-ado.net- (\u002Bsetup)\\Wins\\winLogin.xaml",
-              "RelativeToolTip": "Wins\\winLogin.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-02T17:59:32.468Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ConnectionClass.cs",
-              "DocumentMoniker": "D:\\2025NEW_DATA\\SOFTWARE DEVELOPMENT 2025\\UNVERIFIED\\DEV IN GITS\\WpfImageManagement-ef-ado.net- (\u002Bsetup)\\Services\\ConnectionClass.cs",
-              "RelativeDocumentMoniker": "Services\\ConnectionClass.cs",
-              "ToolTip": "D:\\2025NEW_DATA\\SOFTWARE DEVELOPMENT 2025\\UNVERIFIED\\DEV IN GITS\\WpfImageManagement-ef-ado.net- (\u002Bsetup)\\Services\\ConnectionClass.cs",
-              "RelativeToolTip": "Services\\ConnectionClass.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T17:50:24.023Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "winConfig.xaml",
-              "DocumentMoniker": "D:\\2025NEW_DATA\\SOFTWARE DEVELOPMENT 2025\\UNVERIFIED\\DEV IN GITS\\WpfImageManagement-ef-ado.net- (\u002Bsetup)\\Wins\\winConfig.xaml",
-              "RelativeDocumentMoniker": "Wins\\winConfig.xaml",
-              "ToolTip": "D:\\2025NEW_DATA\\SOFTWARE DEVELOPMENT 2025\\UNVERIFIED\\DEV IN GITS\\WpfImageManagement-ef-ado.net- (\u002Bsetup)\\Wins\\winConfig.xaml",
-              "RelativeToolTip": "Wins\\winConfig.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-02T17:47:28.192Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "App.xaml",
-              "DocumentMoniker": "D:\\2025NEW_DATA\\SOFTWARE DEVELOPMENT 2025\\UNVERIFIED\\DEV IN GITS\\WpfImageManagement-ef-ado.net- (\u002Bsetup)\\App.xaml",
-              "RelativeDocumentMoniker": "App.xaml",
-              "ToolTip": "D:\\2025NEW_DATA\\SOFTWARE DEVELOPMENT 2025\\UNVERIFIED\\DEV IN GITS\\WpfImageManagement-ef-ado.net- (\u002Bsetup)\\App.xaml",
-              "RelativeToolTip": "App.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-03T02:42:41.419Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "D:\\2025NEW_DATA\\SOFTWARE DEVELOPMENT 2025\\UNVERIFIED\\DEV IN GITS\\WpfImageManagement-ef-ado.net- (\u002Bsetup)\\App.xaml.cs",
-              "RelativeDocumentMoniker": "App.xaml.cs",
-              "ToolTip": "D:\\2025NEW_DATA\\SOFTWARE DEVELOPMENT 2025\\UNVERIFIED\\DEV IN GITS\\WpfImageManagement-ef-ado.net- (\u002Bsetup)\\App.xaml.cs",
-              "RelativeToolTip": "App.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-03T02:42:07.97Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Settings.settings",
-              "DocumentMoniker": "D:\\2025NEW_DATA\\SOFTWARE DEVELOPMENT 2025\\UNVERIFIED\\DEV IN GITS\\WpfImageManagement-ef-ado.net- (\u002Bsetup)\\Properties\\Settings.settings",
-              "RelativeDocumentMoniker": "Properties\\Settings.settings",
-              "ToolTip": "D:\\2025NEW_DATA\\SOFTWARE DEVELOPMENT 2025\\UNVERIFIED\\DEV IN GITS\\WpfImageManagement-ef-ado.net- (\u002Bsetup)\\Properties\\Settings.settings",
-              "RelativeToolTip": "Properties\\Settings.settings",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002767|",
-              "WhenOpened": "2025-07-04T16:07:40.65Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "winLogin.xaml.cs",
-              "DocumentMoniker": "D:\\2025NEW_DATA\\SOFTWARE DEVELOPMENT 2025\\UNVERIFIED\\DEV IN GITS\\WpfImageManagement-ef-ado.net- (\u002Bsetup)\\Wins\\winLogin.xaml.cs",
-              "RelativeDocumentMoniker": "Wins\\winLogin.xaml.cs",
-              "ToolTip": "D:\\2025NEW_DATA\\SOFTWARE DEVELOPMENT 2025\\UNVERIFIED\\DEV IN GITS\\WpfImageManagement-ef-ado.net- (\u002Bsetup)\\Wins\\winLogin.xaml.cs",
-              "RelativeToolTip": "Wins\\winLogin.xaml.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAAwBoAAABGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T18:00:18.978Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "MyAppContext.cs",
-              "DocumentMoniker": "D:\\2025NEW_DATA\\SOFTWARE DEVELOPMENT 2025\\UNVERIFIED\\DEV IN GITS\\WpfImageManagement-ef-ado.net- (\u002Bsetup)\\EF\\MyAppContext.cs",
-              "RelativeDocumentMoniker": "EF\\MyAppContext.cs",
-              "ToolTip": "D:\\2025NEW_DATA\\SOFTWARE DEVELOPMENT 2025\\UNVERIFIED\\DEV IN GITS\\WpfImageManagement-ef-ado.net- (\u002Bsetup)\\EF\\MyAppContext.cs",
-              "RelativeToolTip": "EF\\MyAppContext.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAUwA8AAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-14T05:32:42.518Z",
+              "Title": "uProductView.xaml",
+              "DocumentMoniker": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\userWinControl\\uProductView.xaml",
+              "RelativeDocumentMoniker": "userWinControl\\uProductView.xaml",
+              "ToolTip": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\userWinControl\\uProductView.xaml",
+              "RelativeToolTip": "userWinControl\\uProductView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-05T05:10:37.868Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App.xaml.cs",
+              "ToolTip": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\App.xaml.cs",
+              "RelativeToolTip": "App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-05T04:17:59.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "winAdmin.xaml.cs",
-              "DocumentMoniker": "D:\\2025NEW_DATA\\SOFTWARE DEVELOPMENT 2025\\UNVERIFIED\\DEV IN GITS\\WpfImageManagement-ef-ado.net- (\u002Bsetup)\\winAdmin.xaml.cs",
+              "DocumentMoniker": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\winAdmin.xaml.cs",
               "RelativeDocumentMoniker": "winAdmin.xaml.cs",
-              "ToolTip": "D:\\2025NEW_DATA\\SOFTWARE DEVELOPMENT 2025\\UNVERIFIED\\DEV IN GITS\\WpfImageManagement-ef-ado.net- (\u002Bsetup)\\winAdmin.xaml.cs",
+              "ToolTip": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\winAdmin.xaml.cs",
               "RelativeToolTip": "winAdmin.xaml.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAiwEAAAAADAAAAAAAAAA==",
+              "ViewState": "AgIAADIAAAAAAAAAAAAAAD0AAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-04T19:07:57.957Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "20250704163048_tbluser_to_testDB.cs",
-              "DocumentMoniker": "D:\\2025NEW_DATA\\SOFTWARE DEVELOPMENT 2025\\UNVERIFIED\\DEV IN GITS\\WpfImageManagement-ef-ado.net- (\u002Bsetup)\\Migrations\\20250704163048_tbluser_to_testDB.cs",
-              "RelativeDocumentMoniker": "Migrations\\20250704163048_tbluser_to_testDB.cs",
-              "ToolTip": "D:\\2025NEW_DATA\\SOFTWARE DEVELOPMENT 2025\\UNVERIFIED\\DEV IN GITS\\WpfImageManagement-ef-ado.net- (\u002Bsetup)\\Migrations\\20250704163048_tbluser_to_testDB.cs",
-              "RelativeToolTip": "Migrations\\20250704163048_tbluser_to_testDB.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-04T16:30:48.22Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "D:\\2025NEW_DATA\\SOFTWARE DEVELOPMENT 2025\\UNVERIFIED\\DEV IN GITS\\WpfImageManagement-ef-ado.net- (\u002Bsetup)\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "MainWindow.xaml",
-              "ToolTip": "D:\\2025NEW_DATA\\SOFTWARE DEVELOPMENT 2025\\UNVERIFIED\\DEV IN GITS\\WpfImageManagement-ef-ado.net- (\u002Bsetup)\\MainWindow.xaml",
-              "RelativeToolTip": "MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-14T04:25:10.341Z",
+              "WhenOpened": "2025-07-05T04:17:59.174Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ResourcePart.cs",
-              "DocumentMoniker": "C:\\Users\\rtu\\AppData\\Local\\Temp\\.vsdbgsrc\\b49ace08f4cd26a4f275d628999a0f91ccb8a1892704530d9e6f5bd1284082f1\\ResourcePart.cs",
-              "ToolTip": "C:\\Users\\rtu\\AppData\\Local\\Temp\\.vsdbgsrc\\b49ace08f4cd26a4f275d628999a0f91ccb8a1892704530d9e6f5bd1284082f1\\ResourcePart.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAApwCUAAAAWAAAAAQAAAA==",
+              "DocumentIndex": 2,
+              "Title": "winLogin.xaml.cs",
+              "DocumentMoniker": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\Wins\\winLogin.xaml.cs",
+              "RelativeDocumentMoniker": "Wins\\winLogin.xaml.cs",
+              "ToolTip": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\Wins\\winLogin.xaml.cs",
+              "RelativeToolTip": "Wins\\winLogin.xaml.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAAAEIAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T17:57:28.519Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "winAdmin.xaml",
-              "DocumentMoniker": "D:\\2025NEW_DATA\\SOFTWARE DEVELOPMENT 2025\\UNVERIFIED\\DEV IN GITS\\WpfImageManagement-ef-ado.net- (\u002Bsetup)\\winAdmin.xaml",
-              "RelativeDocumentMoniker": "winAdmin.xaml",
-              "ToolTip": "D:\\2025NEW_DATA\\SOFTWARE DEVELOPMENT 2025\\UNVERIFIED\\DEV IN GITS\\WpfImageManagement-ef-ado.net- (\u002Bsetup)\\winAdmin.xaml",
-              "RelativeToolTip": "winAdmin.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-04T19:03:25.099Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "winConfig.xaml.cs",
-              "DocumentMoniker": "D:\\2025NEW_DATA\\SOFTWARE DEVELOPMENT 2025\\UNVERIFIED\\DEV IN GITS\\WpfImageManagement-ef-ado.net- (\u002Bsetup)\\Wins\\winConfig.xaml.cs",
-              "RelativeDocumentMoniker": "Wins\\winConfig.xaml.cs",
-              "ToolTip": "D:\\2025NEW_DATA\\SOFTWARE DEVELOPMENT 2025\\UNVERIFIED\\DEV IN GITS\\WpfImageManagement-ef-ado.net- (\u002Bsetup)\\Wins\\winConfig.xaml.cs",
-              "RelativeToolTip": "Wins\\winConfig.xaml.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBwAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T17:49:18.709Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "MyAppContextModelSnapshot.cs",
-              "DocumentMoniker": "D:\\2025NEW_DATA\\SOFTWARE DEVELOPMENT 2025\\UNVERIFIED\\DEV IN GITS\\WpfImageManagement-ef-ado.net- (\u002Bsetup)\\Migrations\\MyAppContextModelSnapshot.cs",
-              "RelativeDocumentMoniker": "Migrations\\MyAppContextModelSnapshot.cs",
-              "ToolTip": "D:\\2025NEW_DATA\\SOFTWARE DEVELOPMENT 2025\\UNVERIFIED\\DEV IN GITS\\WpfImageManagement-ef-ado.net- (\u002Bsetup)\\Migrations\\MyAppContextModelSnapshot.cs",
-              "RelativeToolTip": "Migrations\\MyAppContextModelSnapshot.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAQwHYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T16:29:29.002Z",
+              "WhenOpened": "2025-07-05T04:17:59.174Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "20250702162023_test_table.cs",
-              "DocumentMoniker": "D:\\2025NEW_DATA\\SOFTWARE DEVELOPMENT 2025\\UNVERIFIED\\DEV IN GITS\\WpfImageManagement-ef-ado.net- (\u002Bsetup)\\Migrations\\20250702162023_test_table.cs",
-              "RelativeDocumentMoniker": "Migrations\\20250702162023_test_table.cs",
-              "ToolTip": "D:\\2025NEW_DATA\\SOFTWARE DEVELOPMENT 2025\\UNVERIFIED\\DEV IN GITS\\WpfImageManagement-ef-ado.net- (\u002Bsetup)\\Migrations\\20250702162023_test_table.cs",
-              "RelativeToolTip": "Migrations\\20250702162023_test_table.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwCEAAAAgAAAAAAAAAA==",
+              "Title": "MyAppContext.cs",
+              "DocumentMoniker": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\EF\\MyAppContext.cs",
+              "RelativeDocumentMoniker": "EF\\MyAppContext.cs",
+              "ToolTip": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\EF\\MyAppContext.cs",
+              "RelativeToolTip": "EF\\MyAppContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAUwA8AAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T16:20:24.194Z"
+              "WhenOpened": "2025-07-05T04:17:59.174Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "winAdmin.xaml",
+              "DocumentMoniker": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\winAdmin.xaml",
+              "RelativeDocumentMoniker": "winAdmin.xaml",
+              "ToolTip": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\winAdmin.xaml",
+              "RelativeToolTip": "winAdmin.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-05T04:17:59.189Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-05T04:17:59.189Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "winLogin.xaml",
+              "DocumentMoniker": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\Wins\\winLogin.xaml",
+              "RelativeDocumentMoniker": "Wins\\winLogin.xaml",
+              "ToolTip": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\Wins\\winLogin.xaml",
+              "RelativeToolTip": "Wins\\winLogin.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-05T04:17:59.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAAJ4AAAAAAAAAAAAYwMEAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-05T04:17:59.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.xaml",
+              "DocumentMoniker": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-05T04:17:59.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "winConfig.xaml",
+              "DocumentMoniker": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\Wins\\winConfig.xaml",
+              "RelativeDocumentMoniker": "Wins\\winConfig.xaml",
+              "ToolTip": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\Wins\\winConfig.xaml",
+              "RelativeToolTip": "Wins\\winConfig.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-05T04:17:59.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TblUser.cs",
+              "DocumentMoniker": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\EF\\TblUser.cs",
+              "RelativeDocumentMoniker": "EF\\TblUser.cs",
+              "ToolTip": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\EF\\TblUser.cs",
+              "RelativeToolTip": "EF\\TblUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-05T04:17:59.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PackageManager_commands.txt",
+              "DocumentMoniker": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\Excluded files\\PackageManager_commands.txt",
+              "RelativeDocumentMoniker": "Excluded files\\PackageManager_commands.txt",
+              "ToolTip": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\Excluded files\\PackageManager_commands.txt",
+              "RelativeToolTip": "Excluded files\\PackageManager_commands.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-07-05T04:17:59.314Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Git commands.txt",
+              "DocumentMoniker": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\Excluded files\\Git commands.txt",
+              "RelativeDocumentMoniker": "Excluded files\\Git commands.txt",
+              "ToolTip": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\Excluded files\\Git commands.txt",
+              "RelativeToolTip": "Excluded files\\Git commands.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-07-05T04:17:59.314Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Comparison EF functions (efficiency).txt",
+              "DocumentMoniker": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\Excluded files\\Comparison EF functions (efficiency).txt",
+              "RelativeDocumentMoniker": "Excluded files\\Comparison EF functions (efficiency).txt",
+              "ToolTip": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\Excluded files\\Comparison EF functions (efficiency).txt",
+              "RelativeToolTip": "Excluded files\\Comparison EF functions (efficiency).txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-07-05T04:17:59.314Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
-              "Title": "20250703102353_sessions_table_1.cs",
-              "DocumentMoniker": "D:\\2025NEW_DATA\\SOFTWARE DEVELOPMENT 2025\\UNVERIFIED\\DEV IN GITS\\WpfImageManagement-ef-ado.net- (\u002Bsetup)\\Migrations\\20250703102353_sessions_table_1.cs",
-              "RelativeDocumentMoniker": "Migrations\\20250703102353_sessions_table_1.cs",
-              "ToolTip": "D:\\2025NEW_DATA\\SOFTWARE DEVELOPMENT 2025\\UNVERIFIED\\DEV IN GITS\\WpfImageManagement-ef-ado.net- (\u002Bsetup)\\Migrations\\20250703102353_sessions_table_1.cs",
-              "RelativeToolTip": "Migrations\\20250703102353_sessions_table_1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "ConnectionClass.cs",
+              "DocumentMoniker": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\Services\\ConnectionClass.cs",
+              "RelativeDocumentMoniker": "Services\\ConnectionClass.cs",
+              "ToolTip": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\Services\\ConnectionClass.cs",
+              "RelativeToolTip": "Services\\ConnectionClass.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-04T16:42:42.815Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "20250703102051_sessions_table.cs",
-              "DocumentMoniker": "D:\\2025NEW_DATA\\SOFTWARE DEVELOPMENT 2025\\UNVERIFIED\\DEV IN GITS\\WpfImageManagement-ef-ado.net- (\u002Bsetup)\\Migrations\\20250703102051_sessions_table.cs",
-              "RelativeDocumentMoniker": "Migrations\\20250703102051_sessions_table.cs",
-              "ToolTip": "D:\\2025NEW_DATA\\SOFTWARE DEVELOPMENT 2025\\UNVERIFIED\\DEV IN GITS\\WpfImageManagement-ef-ado.net- (\u002Bsetup)\\Migrations\\20250703102051_sessions_table.cs",
-              "RelativeToolTip": "Migrations\\20250703102051_sessions_table.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-04T16:42:44.39Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "20250704163645_tbluser_totestDB1.cs",
-              "DocumentMoniker": "D:\\2025NEW_DATA\\SOFTWARE DEVELOPMENT 2025\\UNVERIFIED\\DEV IN GITS\\WpfImageManagement-ef-ado.net- (\u002Bsetup)\\Migrations\\20250704163645_tbluser_totestDB1.cs",
-              "RelativeDocumentMoniker": "Migrations\\20250704163645_tbluser_totestDB1.cs",
-              "ToolTip": "D:\\2025NEW_DATA\\SOFTWARE DEVELOPMENT 2025\\UNVERIFIED\\DEV IN GITS\\WpfImageManagement-ef-ado.net- (\u002Bsetup)\\Migrations\\20250704163645_tbluser_totestDB1.cs",
-              "RelativeToolTip": "Migrations\\20250704163645_tbluser_totestDB1.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwCMAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-04T16:36:45.46Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "20250704163937_tbluser_totestDB2.cs",
-              "DocumentMoniker": "D:\\2025NEW_DATA\\SOFTWARE DEVELOPMENT 2025\\UNVERIFIED\\DEV IN GITS\\WpfImageManagement-ef-ado.net- (\u002Bsetup)\\Migrations\\20250704163937_tbluser_totestDB2.cs",
-              "RelativeDocumentMoniker": "Migrations\\20250704163937_tbluser_totestDB2.cs",
-              "ToolTip": "D:\\2025NEW_DATA\\SOFTWARE DEVELOPMENT 2025\\UNVERIFIED\\DEV IN GITS\\WpfImageManagement-ef-ado.net- (\u002Bsetup)\\Migrations\\20250704163937_tbluser_totestDB2.cs",
-              "RelativeToolTip": "Migrations\\20250704163937_tbluser_totestDB2.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-04T16:39:37.617Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "20250704180732_tbluser_update1.cs",
-              "DocumentMoniker": "D:\\2025NEW_DATA\\SOFTWARE DEVELOPMENT 2025\\UNVERIFIED\\DEV IN GITS\\WpfImageManagement-ef-ado.net- (\u002Bsetup)\\Migrations\\20250704180732_tbluser_update1.cs",
-              "RelativeDocumentMoniker": "Migrations\\20250704180732_tbluser_update1.cs",
-              "ToolTip": "D:\\2025NEW_DATA\\SOFTWARE DEVELOPMENT 2025\\UNVERIFIED\\DEV IN GITS\\WpfImageManagement-ef-ado.net- (\u002Bsetup)\\Migrations\\20250704180732_tbluser_update1.cs",
-              "RelativeToolTip": "Migrations\\20250704180732_tbluser_update1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-04T18:07:32.567Z"
+              "WhenOpened": "2025-07-05T04:17:59.158Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 22,
-              "Title": "20250704184318_scaffolded_loratable.cs",
-              "DocumentMoniker": "D:\\2025NEW_DATA\\SOFTWARE DEVELOPMENT 2025\\UNVERIFIED\\DEV IN GITS\\WpfImageManagement-ef-ado.net- (\u002Bsetup)\\Migrations\\20250704184318_scaffolded_loratable.cs",
-              "RelativeDocumentMoniker": "Migrations\\20250704184318_scaffolded_loratable.cs",
-              "ToolTip": "D:\\2025NEW_DATA\\SOFTWARE DEVELOPMENT 2025\\UNVERIFIED\\DEV IN GITS\\WpfImageManagement-ef-ado.net- (\u002Bsetup)\\Migrations\\20250704184318_scaffolded_loratable.cs",
-              "RelativeToolTip": "Migrations\\20250704184318_scaffolded_loratable.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAQwBYAAAAlAAAAAAAAAA==",
+              "Title": "20250703103018_sessions_table_3.cs",
+              "DocumentMoniker": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\Migrations\\20250703103018_sessions_table_3.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250703103018_sessions_table_3.cs",
+              "ToolTip": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\Migrations\\20250703103018_sessions_table_3.cs",
+              "RelativeToolTip": "Migrations\\20250703103018_sessions_table_3.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-04T18:43:18.226Z"
+              "WhenOpened": "2025-07-05T04:17:58.986Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ResourcePart.cs",
+              "DocumentMoniker": "C:\\Users\\rtu\\AppData\\Local\\Temp\\.vsdbgsrc\\b49ace08f4cd26a4f275d628999a0f91ccb8a1892704530d9e6f5bd1284082f1\\ResourcePart.cs",
+              "ToolTip": "C:\\Users\\rtu\\AppData\\Local\\Temp\\.vsdbgsrc\\b49ace08f4cd26a4f275d628999a0f91ccb8a1892704530d9e6f5bd1284082f1\\ResourcePart.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAApwCUAAAAWAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T17:57:28.519Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "winConfig.xaml.cs",
+              "DocumentMoniker": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\Wins\\winConfig.xaml.cs",
+              "RelativeDocumentMoniker": "Wins\\winConfig.xaml.cs",
+              "ToolTip": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\Wins\\winConfig.xaml.cs",
+              "RelativeToolTip": "Wins\\winConfig.xaml.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBwAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-05T04:17:59.189Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MyAppContextModelSnapshot.cs",
+              "DocumentMoniker": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\Migrations\\MyAppContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Migrations\\MyAppContextModelSnapshot.cs",
+              "ToolTip": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\Migrations\\MyAppContextModelSnapshot.cs",
+              "RelativeToolTip": "Migrations\\MyAppContextModelSnapshot.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAQwHYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-05T04:17:59.205Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "20250702162023_test_table.cs",
+              "DocumentMoniker": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\Migrations\\20250702162023_test_table.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250702162023_test_table.cs",
+              "ToolTip": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\Migrations\\20250702162023_test_table.cs",
+              "RelativeToolTip": "Migrations\\20250702162023_test_table.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwCEAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-05T04:17:59.205Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "20250703102353_sessions_table_1.cs",
+              "DocumentMoniker": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\Migrations\\20250703102353_sessions_table_1.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250703102353_sessions_table_1.cs",
+              "ToolTip": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\Migrations\\20250703102353_sessions_table_1.cs",
+              "RelativeToolTip": "Migrations\\20250703102353_sessions_table_1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-05T04:17:59.205Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "20250703102051_sessions_table.cs",
+              "DocumentMoniker": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\Migrations\\20250703102051_sessions_table.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250703102051_sessions_table.cs",
+              "ToolTip": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\Migrations\\20250703102051_sessions_table.cs",
+              "RelativeToolTip": "Migrations\\20250703102051_sessions_table.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-05T04:17:59.205Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 23,
-              "Title": "20250704184449_scaffolded_loratable1.cs",
-              "DocumentMoniker": "D:\\2025NEW_DATA\\SOFTWARE DEVELOPMENT 2025\\UNVERIFIED\\DEV IN GITS\\WpfImageManagement-ef-ado.net- (\u002Bsetup)\\Migrations\\20250704184449_scaffolded_loratable1.cs",
-              "RelativeDocumentMoniker": "Migrations\\20250704184449_scaffolded_loratable1.cs",
-              "ToolTip": "D:\\2025NEW_DATA\\SOFTWARE DEVELOPMENT 2025\\UNVERIFIED\\DEV IN GITS\\WpfImageManagement-ef-ado.net- (\u002Bsetup)\\Migrations\\20250704184449_scaffolded_loratable1.cs",
-              "RelativeToolTip": "Migrations\\20250704184449_scaffolded_loratable1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "Title": "20250704163645_tbluser_totestDB1.cs",
+              "DocumentMoniker": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\Migrations\\20250704163645_tbluser_totestDB1.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250704163645_tbluser_totestDB1.cs",
+              "ToolTip": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\Migrations\\20250704163645_tbluser_totestDB1.cs",
+              "RelativeToolTip": "Migrations\\20250704163645_tbluser_totestDB1.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwCMAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-04T18:44:49.754Z"
+              "WhenOpened": "2025-07-05T04:17:59.205Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 24,
-              "Title": "TblLora.cs",
-              "DocumentMoniker": "D:\\2025NEW_DATA\\SOFTWARE DEVELOPMENT 2025\\UNVERIFIED\\DEV IN GITS\\WpfImageManagement-ef-ado.net- (\u002Bsetup)\\EF\\TblLora.cs",
-              "RelativeDocumentMoniker": "EF\\TblLora.cs",
-              "ToolTip": "D:\\2025NEW_DATA\\SOFTWARE DEVELOPMENT 2025\\UNVERIFIED\\DEV IN GITS\\WpfImageManagement-ef-ado.net- (\u002Bsetup)\\EF\\TblLora.cs",
-              "RelativeToolTip": "EF\\TblLora.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAJAAAAAAAAAA==",
+              "Title": "20250704163937_tbluser_totestDB2.cs",
+              "DocumentMoniker": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\Migrations\\20250704163937_tbluser_totestDB2.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250704163937_tbluser_totestDB2.cs",
+              "ToolTip": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\Migrations\\20250704163937_tbluser_totestDB2.cs",
+              "RelativeToolTip": "Migrations\\20250704163937_tbluser_totestDB2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-04T18:27:06.205Z"
+              "WhenOpened": "2025-07-05T04:17:59.22Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 25,
-              "Title": "WbhLora1.cs",
-              "DocumentMoniker": "D:\\2025NEW_DATA\\SOFTWARE DEVELOPMENT 2025\\UNVERIFIED\\DEV IN GITS\\WpfImageManagement-ef-ado.net- (\u002Bsetup)\\wbhLoraModels\\WbhLora1.cs",
-              "RelativeDocumentMoniker": "wbhLoraModels\\WbhLora1.cs",
-              "ToolTip": "D:\\2025NEW_DATA\\SOFTWARE DEVELOPMENT 2025\\UNVERIFIED\\DEV IN GITS\\WpfImageManagement-ef-ado.net- (\u002Bsetup)\\wbhLoraModels\\WbhLora1.cs",
-              "RelativeToolTip": "wbhLoraModels\\WbhLora1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAVAAAAAAAAAA==",
+              "Title": "20250704180732_tbluser_update1.cs",
+              "DocumentMoniker": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\Migrations\\20250704180732_tbluser_update1.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250704180732_tbluser_update1.cs",
+              "ToolTip": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\Migrations\\20250704180732_tbluser_update1.cs",
+              "RelativeToolTip": "Migrations\\20250704180732_tbluser_update1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-04T18:26:52.353Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "WbhContext1.cs",
-              "DocumentMoniker": "D:\\2025NEW_DATA\\SOFTWARE DEVELOPMENT 2025\\UNVERIFIED\\DEV IN GITS\\WpfImageManagement-ef-ado.net- (\u002Bsetup)\\ModelsWbh1\\WbhContext1.cs",
-              "RelativeDocumentMoniker": "ModelsWbh1\\WbhContext1.cs",
-              "ToolTip": "D:\\2025NEW_DATA\\SOFTWARE DEVELOPMENT 2025\\UNVERIFIED\\DEV IN GITS\\WpfImageManagement-ef-ado.net- (\u002Bsetup)\\ModelsWbh1\\WbhContext1.cs",
-              "RelativeToolTip": "ModelsWbh1\\WbhContext1.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAIwBEAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-04T18:24:59.85Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "forproduct.cs",
-              "DocumentMoniker": "D:\\2025NEW_DATA\\SOFTWARE DEVELOPMENT 2025\\UNVERIFIED\\DEV IN GITS\\WpfImageManagement-ef-ado.net- (\u002Bsetup)\\WBH_MINISYSTEM_SCAFFOLD\\forproduct.cs",
-              "RelativeDocumentMoniker": "WBH_MINISYSTEM_SCAFFOLD\\forproduct.cs",
-              "ToolTip": "D:\\2025NEW_DATA\\SOFTWARE DEVELOPMENT 2025\\UNVERIFIED\\DEV IN GITS\\WpfImageManagement-ef-ado.net- (\u002Bsetup)\\WBH_MINISYSTEM_SCAFFOLD\\forproduct.cs",
-              "RelativeToolTip": "WBH_MINISYSTEM_SCAFFOLD\\forproduct.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-04T18:22:37.793Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "TblUser.cs",
-              "DocumentMoniker": "D:\\2025NEW_DATA\\SOFTWARE DEVELOPMENT 2025\\UNVERIFIED\\DEV IN GITS\\WpfImageManagement-ef-ado.net- (\u002Bsetup)\\EF\\TblUser.cs",
-              "RelativeDocumentMoniker": "EF\\TblUser.cs",
-              "ToolTip": "D:\\2025NEW_DATA\\SOFTWARE DEVELOPMENT 2025\\UNVERIFIED\\DEV IN GITS\\WpfImageManagement-ef-ado.net- (\u002Bsetup)\\EF\\TblUser.cs",
-              "RelativeToolTip": "EF\\TblUser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-04T16:34:14.3Z"
+              "WhenOpened": "2025-07-05T04:17:59.22Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 26,
-              "Title": "WpfEFProfile.csproj",
-              "DocumentMoniker": "D:\\2025NEW_DATA\\SOFTWARE DEVELOPMENT 2025\\UNVERIFIED\\DEV IN GITS\\WpfImageManagement-ef-ado.net- (\u002Bsetup)\\WpfEFProfile.csproj",
-              "RelativeDocumentMoniker": "WpfEFProfile.csproj",
-              "ToolTip": "D:\\2025NEW_DATA\\SOFTWARE DEVELOPMENT 2025\\UNVERIFIED\\DEV IN GITS\\WpfImageManagement-ef-ado.net- (\u002Bsetup)\\WpfEFProfile.csproj",
-              "RelativeToolTip": "WpfEFProfile.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-07-02T17:46:57.72Z"
+              "Title": "20250704184318_scaffolded_loratable.cs",
+              "DocumentMoniker": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\Migrations\\20250704184318_scaffolded_loratable.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250704184318_scaffolded_loratable.cs",
+              "ToolTip": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\Migrations\\20250704184318_scaffolded_loratable.cs",
+              "RelativeToolTip": "Migrations\\20250704184318_scaffolded_loratable.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAQwBYAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-05T04:17:59.22Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "Test.cs",
-              "DocumentMoniker": "D:\\2025NEW_DATA\\SOFTWARE DEVELOPMENT 2025\\UNVERIFIED\\DEV IN GITS\\WpfImageManagement-ef-ado.net- (\u002Bsetup)\\EF\\Test.cs",
-              "RelativeDocumentMoniker": "EF\\Test.cs",
-              "ToolTip": "D:\\2025NEW_DATA\\SOFTWARE DEVELOPMENT 2025\\UNVERIFIED\\DEV IN GITS\\WpfImageManagement-ef-ado.net- (\u002Bsetup)\\EF\\Test.cs",
-              "RelativeToolTip": "EF\\Test.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAXAAAAAAAAAA==",
+              "DocumentIndex": 27,
+              "Title": "20250704184449_scaffolded_loratable1.cs",
+              "DocumentMoniker": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\Migrations\\20250704184449_scaffolded_loratable1.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250704184449_scaffolded_loratable1.cs",
+              "ToolTip": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\Migrations\\20250704184449_scaffolded_loratable1.cs",
+              "RelativeToolTip": "Migrations\\20250704184449_scaffolded_loratable1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-14T05:34:37.181Z"
+              "WhenOpened": "2025-07-05T04:17:59.22Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "TblLora.cs",
+              "DocumentMoniker": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\EF\\TblLora.cs",
+              "RelativeDocumentMoniker": "EF\\TblLora.cs",
+              "ToolTip": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\EF\\TblLora.cs",
+              "RelativeToolTip": "EF\\TblLora.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-05T04:17:59.22Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 29,
-              "Title": "PackageManager_commands.txt",
-              "DocumentMoniker": "D:\\2025NEW_DATA\\SOFTWARE DEVELOPMENT 2025\\UNVERIFIED\\DEV IN GITS\\WpfImageManagement-ef-ado.net- (\u002Bsetup)\\Excluded files\\PackageManager_commands.txt",
-              "RelativeDocumentMoniker": "Excluded files\\PackageManager_commands.txt",
-              "ToolTip": "D:\\2025NEW_DATA\\SOFTWARE DEVELOPMENT 2025\\UNVERIFIED\\DEV IN GITS\\WpfImageManagement-ef-ado.net- (\u002Bsetup)\\Excluded files\\PackageManager_commands.txt",
-              "RelativeToolTip": "Excluded files\\PackageManager_commands.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-07-04T16:32:25.72Z"
+              "Title": "WbhLora1.cs",
+              "DocumentMoniker": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\wbhLoraModels\\WbhLora1.cs",
+              "RelativeDocumentMoniker": "wbhLoraModels\\WbhLora1.cs",
+              "ToolTip": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\wbhLoraModels\\WbhLora1.cs",
+              "RelativeToolTip": "wbhLoraModels\\WbhLora1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-05T04:17:59.22Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "Git commands.txt",
-              "DocumentMoniker": "D:\\2025NEW_DATA\\SOFTWARE DEVELOPMENT 2025\\UNVERIFIED\\DEV IN GITS\\WpfImageManagement-ef-ado.net- (\u002Bsetup)\\Excluded files\\Git commands.txt",
-              "RelativeDocumentMoniker": "Excluded files\\Git commands.txt",
-              "ToolTip": "D:\\2025NEW_DATA\\SOFTWARE DEVELOPMENT 2025\\UNVERIFIED\\DEV IN GITS\\WpfImageManagement-ef-ado.net- (\u002Bsetup)\\Excluded files\\Git commands.txt",
-              "RelativeToolTip": "Excluded files\\Git commands.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-07-04T15:38:33.299Z"
+              "DocumentIndex": 35,
+              "Title": "WbhContext1.cs",
+              "DocumentMoniker": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\ModelsWbh1\\WbhContext1.cs",
+              "RelativeDocumentMoniker": "ModelsWbh1\\WbhContext1.cs",
+              "ToolTip": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\ModelsWbh1\\WbhContext1.cs",
+              "RelativeToolTip": "ModelsWbh1\\WbhContext1.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAIwBEAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-05T04:17:59.236Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 31,
-              "Title": "Comparison EF functions (efficiency).txt",
-              "DocumentMoniker": "D:\\2025NEW_DATA\\SOFTWARE DEVELOPMENT 2025\\UNVERIFIED\\DEV IN GITS\\WpfImageManagement-ef-ado.net- (\u002Bsetup)\\Excluded files\\Comparison EF functions (efficiency).txt",
-              "RelativeDocumentMoniker": "Excluded files\\Comparison EF functions (efficiency).txt",
-              "ToolTip": "D:\\2025NEW_DATA\\SOFTWARE DEVELOPMENT 2025\\UNVERIFIED\\DEV IN GITS\\WpfImageManagement-ef-ado.net- (\u002Bsetup)\\Excluded files\\Comparison EF functions (efficiency).txt",
-              "RelativeToolTip": "Excluded files\\Comparison EF functions (efficiency).txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-07-02T16:18:21.11Z"
+              "Title": "forproduct.cs",
+              "DocumentMoniker": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\WBH_MINISYSTEM_SCAFFOLD\\forproduct.cs",
+              "RelativeDocumentMoniker": "WBH_MINISYSTEM_SCAFFOLD\\forproduct.cs",
+              "ToolTip": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\WBH_MINISYSTEM_SCAFFOLD\\forproduct.cs",
+              "RelativeToolTip": "WBH_MINISYSTEM_SCAFFOLD\\forproduct.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-05T04:17:59.236Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "WpfEFProfile.csproj",
+              "DocumentMoniker": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\WpfEFProfile.csproj",
+              "RelativeDocumentMoniker": "WpfEFProfile.csproj",
+              "ToolTip": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\WpfEFProfile.csproj",
+              "RelativeToolTip": "WpfEFProfile.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-05T04:17:59.236Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Test.cs",
+              "DocumentMoniker": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\EF\\Test.cs",
+              "RelativeDocumentMoniker": "EF\\Test.cs",
+              "ToolTip": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\EF\\Test.cs",
+              "RelativeToolTip": "EF\\Test.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-05T04:17:59.314Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 33,
               "Title": "Sessions.cs",
-              "DocumentMoniker": "D:\\2025NEW_DATA\\SOFTWARE DEVELOPMENT 2025\\UNVERIFIED\\DEV IN GITS\\WpfImageManagement-ef-ado.net- (\u002Bsetup)\\EF\\Sessions.cs",
+              "DocumentMoniker": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\EF\\Sessions.cs",
               "RelativeDocumentMoniker": "EF\\Sessions.cs",
-              "ToolTip": "D:\\2025NEW_DATA\\SOFTWARE DEVELOPMENT 2025\\UNVERIFIED\\DEV IN GITS\\WpfImageManagement-ef-ado.net- (\u002Bsetup)\\EF\\Sessions.cs",
+              "ToolTip": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\EF\\Sessions.cs",
               "RelativeToolTip": "EF\\Sessions.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T18:58:54.1Z"
+              "WhenOpened": "2025-07-05T04:17:59.314Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 34,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "D:\\2025NEW_DATA\\SOFTWARE DEVELOPMENT 2025\\UNVERIFIED\\DEV IN GITS\\WpfImageManagement-ef-ado.net- (\u002Bsetup)\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
-              "ToolTip": "D:\\2025NEW_DATA\\SOFTWARE DEVELOPMENT 2025\\UNVERIFIED\\DEV IN GITS\\WpfImageManagement-ef-ado.net- (\u002Bsetup)\\MainWindow.xaml.cs",
-              "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AgIAAH8AAAAAAAAAAAASwKEAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-14T04:25:07.701Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
               "Title": "DBquery.cs",
-              "DocumentMoniker": "D:\\2025NEW_DATA\\SOFTWARE DEVELOPMENT 2025\\UNVERIFIED\\DEV IN GITS\\WpfImageManagement-ef-ado.net- (\u002Bsetup)\\Services\\DBquery.cs",
+              "DocumentMoniker": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\Services\\DBquery.cs",
               "RelativeDocumentMoniker": "Services\\DBquery.cs",
-              "ToolTip": "D:\\2025NEW_DATA\\SOFTWARE DEVELOPMENT 2025\\UNVERIFIED\\DEV IN GITS\\WpfImageManagement-ef-ado.net- (\u002Bsetup)\\Services\\DBquery.cs",
+              "ToolTip": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\Services\\DBquery.cs",
               "RelativeToolTip": "Services\\DBquery.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAQwA4AAABqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T17:51:25.869Z"
+              "WhenOpened": "2025-07-05T04:17:59.33Z",
+              "EditorCaption": ""
             }
           ]
         }

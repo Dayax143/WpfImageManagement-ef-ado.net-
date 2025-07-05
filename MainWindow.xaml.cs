@@ -193,5 +193,12 @@ namespace WpfEFProfile
         {
             loadProfileImageAdonet(int.Parse(txtLoad.Text));
         }
+
+        private void btnManage_Click(object sender, RoutedEventArgs e)
+        {
+            this.Hide();
+            winAdmin manageWindow = new winAdmin();
+            manageWindow.Show();
+        }
     }
 }

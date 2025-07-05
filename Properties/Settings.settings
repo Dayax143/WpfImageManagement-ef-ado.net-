@@ -6,7 +6,7 @@
       <Value Profile="(Default)">Server=rt\rtser; Database=testDB; user id=sa; password=sa@123; trustservercertificate=true</Value>
     </Setting>
     <Setting Name="audit_user" Type="System.String" Scope="User">
-      <Value Profile="(Default)">audit</Value>
+      <Value Profile="(Default)"> Annonymous</Value>
     </Setting>
   </Settings>
 </SettingsFile>

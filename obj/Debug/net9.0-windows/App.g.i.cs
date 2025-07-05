@@ -46,7 +46,7 @@ namespace WpfEFProfile {
         /// </summary>
         [System.STAThreadAttribute()]
         [System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [System.CodeDom.Compiler.GeneratedCodeAttribute("PresentationBuildTasks", "9.0.6.0")]
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("PresentationBuildTasks", "9.0.2.0")]
         public static void Main() {
             WpfEFProfile.App app = new WpfEFProfile.App();
             app.Run();
