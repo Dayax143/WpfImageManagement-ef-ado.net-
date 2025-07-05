@@ -1,21 +1,28 @@
 ﻿<Window x:Class="WpfEFProfile.winMedia"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="Media Uploader" Height="600" Width="800">
+        Title="Media Uploader" Height="700" Width="800">
     <Grid Margin="10">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
+            <!-- Upload Controls -->
             <RowDefinition Height="Auto"/>
+            <!-- Metadata Entry -->
             <RowDefinition Height="Auto"/>
-            <RowDefinition Height="*"/>
+            <!-- Action Buttons -->
+            <RowDefinition Height="2*"/>
+            <!-- Media List -->
+            <RowDefinition Height="3*"/>
+            <!-- Video Preview + Controls -->
         </Grid.RowDefinitions>
 
-        <!-- Upload Controls -->
-        <StackPanel Orientation="Horizontal" Margin="0,0,0,10">
+        <!-- 📤 Upload Controls -->
+        <StackPanel Orientation="Horizontal" Grid.Row="0" Margin="0,0,0,10">
             <Button Content="Browse" Click="Browse_Click" Width="100" Margin="0,0,10,0"/>
             <Button Content="Upload" Click="Upload_Click" Width="100"/>
         </StackPanel>
 
+        <!-- 📝 Metadata Entry -->
         <StackPanel Grid.Row="1" Margin="0,0,0,10">
             <TextBlock Text="File Name:"/>
             <TextBox x:Name="txtFileName"/>
@@ -25,14 +32,43 @@
             <TextBox x:Name="txtDescription"/>
         </StackPanel>
 
-        <!-- Retrieval Controls -->
+        <!-- 🎯 Action Buttons -->
         <StackPanel Grid.Row="2" Orientation="Horizontal" Margin="0,10,0,10">
             <Button Content="Load Media List" Click="LoadMedia_Click" Width="120"/>
-            <Button Content="Play Selected" Click="PlaySelected_Click" Width="120" Margin="10,0,0,0"/>
+            <Button Content="Play Audio" Click="PlaySelected_Click" Width="120" Margin="10,0,0,0"/>
+            <Button Content="Play Video" Click="PlayVideo_Click" Width="120" Margin="10,0,0,0"/>
             <Button Content="Save to Disk" Click="SaveSelected_Click" Width="120" Margin="10,0,0,0"/>
         </StackPanel>
 
-        <!-- Media List -->
-        <ListBox x:Name="lstMedia" Grid.Row="3" DisplayMemberPath="FileName"/>
+        <!-- 📄 Media List -->
+        <ListBox x:Name="lstMedia" Grid.Row="3" DisplayMemberPath="FileName" Margin="0,0,0,10"/>
+
+        <!-- 🎥 Video Playback and Controls -->
+        <Grid Grid.Row="4" Margin="0,10,0,0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <!-- Media Player -->
+                <RowDefinition Height="Auto"/>
+                <!-- Control Buttons -->
+            </Grid.RowDefinitions>
+
+            <MediaElement x:Name="videoPlayer"
+                          Grid.Row="0"
+                          LoadedBehavior="Manual"
+                          UnloadedBehavior="Stop"
+                          Stretch="Uniform"
+                          Height="250"/>
+
+            <StackPanel Grid.Row="1"
+                        Orientation="Horizontal"
+                        HorizontalAlignment="Center"
+                        Margin="0,10,0,0">
+                <Button Content="▶ Play" Width="80" Click="btnPlay_Click"/>
+                <Button Content="⏸ Pause" Width="80" Margin="10,0,0,0" Click="btnPause_Click"/>
+                <Button Content="⏹ Stop" Width="80" Margin="10,0,0,0" Click="btnStop_Click"/>
+                <Button Content="⏪ Rewind" Width="80" Margin="10,0,0,0" Click="btnRewind_Click"/>
+                <Button Content="⏩ Forward" Width="80" Margin="10,0,0,0" Click="btnForward_Click"/>
+            </StackPanel>
+        </Grid>
     </Grid>
 </Window>

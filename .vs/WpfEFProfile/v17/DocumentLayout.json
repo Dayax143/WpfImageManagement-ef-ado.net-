@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|f:\\software development\\hwa dev\\2025  devs\\wpfimagemanagement-ef-ado.net-\\winmedia.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
-      "RelativeMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|solutionrelative:winmedia.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|f:\\software development\\hwa dev\\2025  devs\\wpfimagemanagement-ef-ado.net-\\winmedia.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|solutionrelative:winmedia.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|f:\\software development\\hwa dev\\2025  devs\\wpfimagemanagement-ef-ado.net-\\winmedia.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|solutionrelative:winmedia.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|f:\\software development\\hwa dev\\2025  devs\\wpfimagemanagement-ef-ado.net-\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -19,16 +19,8 @@
       "RelativeMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|solutionrelative:ef\\tblmedia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\Migrations\\20250705072630_added_mediatable1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250705072630_added_mediatable1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|f:\\software development\\hwa dev\\2025  devs\\wpfimagemanagement-ef-ado.net-\\ef\\myappcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|solutionrelative:ef\\myappcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\Migrations\\20250705072331_added_videotable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250705072331_added_videotable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|f:\\software development\\hwa dev\\2025  devs\\wpfimagemanagement-ef-ado.net-\\winadmin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -171,6 +163,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|f:\\software development\\hwa dev\\2025  devs\\wpfimagemanagement-ef-ado.net-\\modelswbh1\\wbhcontext1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|solutionrelative:modelswbh1\\wbhcontext1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|f:\\software development\\hwa dev\\2025  devs\\wpfimagemanagement-ef-ado.net-\\migrations\\20250705072630_added_mediatable1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|solutionrelative:migrations\\20250705072630_added_mediatable1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|f:\\software development\\hwa dev\\2025  devs\\wpfimagemanagement-ef-ado.net-\\migrations\\20250705072331_added_videotable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2D4A6A1-3B98-476B-B907-2E3D0D5119F2}|WpfEFProfile.csproj|solutionrelative:migrations\\20250705072331_added_videotable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -180,7 +180,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -188,20 +188,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "winMedia.xaml.cs",
               "DocumentMoniker": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\winMedia.xaml.cs",
               "RelativeDocumentMoniker": "winMedia.xaml.cs",
               "ToolTip": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\winMedia.xaml.cs",
               "RelativeToolTip": "winMedia.xaml.cs",
-              "ViewState": "AgIAAE8AAAAAAAAAAAAAAGoAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAIcAAAAAAAAAAAAswK4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-05T07:31:10.518Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "winMedia.xaml",
               "DocumentMoniker": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\winMedia.xaml",
               "RelativeDocumentMoniker": "winMedia.xaml",
@@ -213,7 +213,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 41,
               "Title": "20250705072630_added_mediatable1.cs",
               "DocumentMoniker": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\Migrations\\20250705072630_added_mediatable1.cs",
               "RelativeDocumentMoniker": "Migrations\\20250705072630_added_mediatable1.cs",
@@ -221,12 +221,11 @@
               "RelativeToolTip": "Migrations\\20250705072630_added_mediatable1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-05T07:26:30.748Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-05T07:26:30.748Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 42,
               "Title": "20250705072331_added_videotable.cs",
               "DocumentMoniker": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\Migrations\\20250705072331_added_videotable.cs",
               "RelativeDocumentMoniker": "Migrations\\20250705072331_added_videotable.cs",
@@ -234,8 +233,7 @@
               "RelativeToolTip": "Migrations\\20250705072331_added_videotable.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-05T07:23:31.863Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-05T07:23:31.863Z"
             },
             {
               "$type": "Document",
@@ -247,12 +245,11 @@
               "RelativeToolTip": "EF\\tblMedia.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-05T07:19:49.841Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-05T07:19:49.841Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 6,
               "Title": "winAdmin.xaml.cs",
               "DocumentMoniker": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\winAdmin.xaml.cs",
               "RelativeDocumentMoniker": "winAdmin.xaml.cs",
@@ -264,7 +261,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 11,
               "Title": "winLogin.xaml.cs",
               "DocumentMoniker": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\Wins\\winLogin.xaml.cs",
               "RelativeDocumentMoniker": "Wins\\winLogin.xaml.cs",
@@ -276,7 +273,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "MyAppContext.cs",
               "DocumentMoniker": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\EF\\MyAppContext.cs",
               "RelativeDocumentMoniker": "EF\\MyAppContext.cs",
@@ -284,24 +281,22 @@
               "RelativeToolTip": "EF\\MyAppContext.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAUwBIAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-05T04:17:59.174Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-05T04:17:59.174Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "winAdmin.xaml",
               "DocumentMoniker": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\winAdmin.xaml",
               "RelativeDocumentMoniker": "winAdmin.xaml",
               "ToolTip": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\winAdmin.xaml",
               "RelativeToolTip": "winAdmin.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-05T04:17:59.189Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-05T04:17:59.189Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 13,
               "Title": "uProductView.xaml",
               "DocumentMoniker": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\userWinControl\\uProductView.xaml",
               "RelativeDocumentMoniker": "userWinControl\\uProductView.xaml",
@@ -312,7 +307,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 7,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
@@ -335,7 +330,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 8,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\App.xaml.cs",
               "RelativeDocumentMoniker": "App.xaml.cs",
@@ -347,7 +342,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 12,
               "Title": "winLogin.xaml",
               "DocumentMoniker": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\Wins\\winLogin.xaml",
               "RelativeDocumentMoniker": "Wins\\winLogin.xaml",
@@ -358,7 +353,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 14,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
@@ -370,7 +365,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 10,
               "Title": "UpgradeLog.htm",
               "DocumentMoniker": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\UpgradeLog.htm",
               "RelativeDocumentMoniker": "UpgradeLog.htm",
@@ -382,7 +377,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 9,
               "Title": "ResourcePart.cs",
               "DocumentMoniker": "C:\\Users\\pc\\AppData\\Local\\Temp\\.vsdbgsrc\\b49ace08f4cd26a4f275d628999a0f91ccb8a1892704530d9e6f5bd1284082f1\\ResourcePart.cs",
               "ToolTip": "C:\\Users\\pc\\AppData\\Local\\Temp\\.vsdbgsrc\\b49ace08f4cd26a4f275d628999a0f91ccb8a1892704530d9e6f5bd1284082f1\\ResourcePart.cs",
@@ -392,7 +387,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 15,
               "Title": "winConfig.xaml",
               "DocumentMoniker": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\Wins\\winConfig.xaml",
               "RelativeDocumentMoniker": "Wins\\winConfig.xaml",
@@ -403,7 +398,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 16,
               "Title": "TblUser.cs",
               "DocumentMoniker": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\EF\\TblUser.cs",
               "RelativeDocumentMoniker": "EF\\TblUser.cs",
@@ -415,7 +410,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 17,
               "Title": "PackageManager_commands.txt",
               "DocumentMoniker": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\Excluded files\\PackageManager_commands.txt",
               "RelativeDocumentMoniker": "Excluded files\\PackageManager_commands.txt",
@@ -427,7 +422,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 19,
               "Title": "Git commands.txt",
               "DocumentMoniker": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\Excluded files\\Git commands.txt",
               "RelativeDocumentMoniker": "Excluded files\\Git commands.txt",
@@ -439,7 +434,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 18,
               "Title": "Comparison EF functions (efficiency).txt",
               "DocumentMoniker": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\Excluded files\\Comparison EF functions (efficiency).txt",
               "RelativeDocumentMoniker": "Excluded files\\Comparison EF functions (efficiency).txt",
@@ -451,7 +446,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 21,
               "Title": "ConnectionClass.cs",
               "DocumentMoniker": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\Services\\ConnectionClass.cs",
               "RelativeDocumentMoniker": "Services\\ConnectionClass.cs",
@@ -463,7 +458,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 27,
               "Title": "20250703103018_sessions_table_3.cs",
               "DocumentMoniker": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\Migrations\\20250703103018_sessions_table_3.cs",
               "RelativeDocumentMoniker": "Migrations\\20250703103018_sessions_table_3.cs",
@@ -475,7 +470,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 20,
               "Title": "ResourcePart.cs",
               "DocumentMoniker": "C:\\Users\\rtu\\AppData\\Local\\Temp\\.vsdbgsrc\\b49ace08f4cd26a4f275d628999a0f91ccb8a1892704530d9e6f5bd1284082f1\\ResourcePart.cs",
               "ToolTip": "C:\\Users\\rtu\\AppData\\Local\\Temp\\.vsdbgsrc\\b49ace08f4cd26a4f275d628999a0f91ccb8a1892704530d9e6f5bd1284082f1\\ResourcePart.cs",
@@ -484,7 +479,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 22,
               "Title": "winConfig.xaml.cs",
               "DocumentMoniker": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\Wins\\winConfig.xaml.cs",
               "RelativeDocumentMoniker": "Wins\\winConfig.xaml.cs",
@@ -496,7 +491,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 23,
               "Title": "MyAppContextModelSnapshot.cs",
               "DocumentMoniker": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\Migrations\\MyAppContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "Migrations\\MyAppContextModelSnapshot.cs",
@@ -508,7 +503,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 24,
               "Title": "20250702162023_test_table.cs",
               "DocumentMoniker": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\Migrations\\20250702162023_test_table.cs",
               "RelativeDocumentMoniker": "Migrations\\20250702162023_test_table.cs",
@@ -520,7 +515,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 26,
               "Title": "20250703102353_sessions_table_1.cs",
               "DocumentMoniker": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\Migrations\\20250703102353_sessions_table_1.cs",
               "RelativeDocumentMoniker": "Migrations\\20250703102353_sessions_table_1.cs",
@@ -532,7 +527,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 25,
               "Title": "20250703102051_sessions_table.cs",
               "DocumentMoniker": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\Migrations\\20250703102051_sessions_table.cs",
               "RelativeDocumentMoniker": "Migrations\\20250703102051_sessions_table.cs",
@@ -544,7 +539,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 28,
               "Title": "20250704163645_tbluser_totestDB1.cs",
               "DocumentMoniker": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\Migrations\\20250704163645_tbluser_totestDB1.cs",
               "RelativeDocumentMoniker": "Migrations\\20250704163645_tbluser_totestDB1.cs",
@@ -556,7 +551,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 29,
               "Title": "20250704163937_tbluser_totestDB2.cs",
               "DocumentMoniker": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\Migrations\\20250704163937_tbluser_totestDB2.cs",
               "RelativeDocumentMoniker": "Migrations\\20250704163937_tbluser_totestDB2.cs",
@@ -568,7 +563,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 30,
               "Title": "20250704180732_tbluser_update1.cs",
               "DocumentMoniker": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\Migrations\\20250704180732_tbluser_update1.cs",
               "RelativeDocumentMoniker": "Migrations\\20250704180732_tbluser_update1.cs",
@@ -580,7 +575,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 31,
               "Title": "20250704184318_scaffolded_loratable.cs",
               "DocumentMoniker": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\Migrations\\20250704184318_scaffolded_loratable.cs",
               "RelativeDocumentMoniker": "Migrations\\20250704184318_scaffolded_loratable.cs",
@@ -592,7 +587,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 32,
               "Title": "20250704184449_scaffolded_loratable1.cs",
               "DocumentMoniker": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\Migrations\\20250704184449_scaffolded_loratable1.cs",
               "RelativeDocumentMoniker": "Migrations\\20250704184449_scaffolded_loratable1.cs",
@@ -604,7 +599,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 33,
               "Title": "TblLora.cs",
               "DocumentMoniker": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\EF\\TblLora.cs",
               "RelativeDocumentMoniker": "EF\\TblLora.cs",
@@ -616,7 +611,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 34,
               "Title": "WbhLora1.cs",
               "DocumentMoniker": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\wbhLoraModels\\WbhLora1.cs",
               "RelativeDocumentMoniker": "wbhLoraModels\\WbhLora1.cs",
@@ -628,7 +623,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 40,
               "Title": "WbhContext1.cs",
               "DocumentMoniker": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\ModelsWbh1\\WbhContext1.cs",
               "RelativeDocumentMoniker": "ModelsWbh1\\WbhContext1.cs",
@@ -640,7 +635,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 36,
               "Title": "forproduct.cs",
               "DocumentMoniker": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\WBH_MINISYSTEM_SCAFFOLD\\forproduct.cs",
               "RelativeDocumentMoniker": "WBH_MINISYSTEM_SCAFFOLD\\forproduct.cs",
@@ -652,7 +647,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 35,
               "Title": "WpfEFProfile.csproj",
               "DocumentMoniker": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\WpfEFProfile.csproj",
               "RelativeDocumentMoniker": "WpfEFProfile.csproj",
@@ -664,7 +659,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 37,
               "Title": "Test.cs",
               "DocumentMoniker": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\EF\\Test.cs",
               "RelativeDocumentMoniker": "EF\\Test.cs",
@@ -676,7 +671,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 38,
               "Title": "Sessions.cs",
               "DocumentMoniker": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\EF\\Sessions.cs",
               "RelativeDocumentMoniker": "EF\\Sessions.cs",
@@ -688,7 +683,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 39,
               "Title": "DBquery.cs",
               "DocumentMoniker": "F:\\Software Development\\HWA DEV\\2025  devs\\WpfImageManagement-ef-ado.net-\\Services\\DBquery.cs",
               "RelativeDocumentMoniker": "Services\\DBquery.cs",

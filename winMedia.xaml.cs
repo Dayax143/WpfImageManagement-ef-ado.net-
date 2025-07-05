@@ -121,5 +121,57 @@ namespace WpfEFProfile
                 }
             }
         }
+        private bool IsVideo(string fileName)
+        {
+            string ext = Path.GetExtension(fileName).ToLower();
+            return ext is ".mp4" or ".wmv" or ".avi" or ".mov";
+        }
+
+        private async void PlayVideo_Click(object sender, RoutedEventArgs e)
+        {
+            if (lstMedia.SelectedItem is tblMedia selected && IsVideo(selected.FileName))
+            {
+                string tempPath = Path.Combine(Path.GetTempPath(), selected.FileName);
+                await File.WriteAllBytesAsync(tempPath, selected.FileData);
+
+                videoPlayer.Source = new Uri(tempPath, UriKind.Absolute);
+                videoPlayer.Play();
+            }
+            else
+            {
+                MessageBox.Show("Selected file is not a recognized video format.");
+            }
+        }
+
+        private void btnPlay_Click(object sender, RoutedEventArgs e)
+        {
+            videoPlayer.Play();
+        }
+
+        private void btnPause_Click(object sender, RoutedEventArgs e)
+        {
+            videoPlayer.Pause();
+        }
+
+        private void btnStop_Click(object sender, RoutedEventArgs e)
+        {
+            videoPlayer.Stop();
+        }
+
+        private void btnRewind_Click(object sender, RoutedEventArgs e)
+        {
+            if (videoPlayer.NaturalDuration.HasTimeSpan)
+            {
+                videoPlayer.Position -= TimeSpan.FromSeconds(10);
+            }
+        }
+
+        private void btnForward_Click(object sender, RoutedEventArgs e)
+        {
+            if (videoPlayer.NaturalDuration.HasTimeSpan)
+            {
+                videoPlayer.Position += TimeSpan.FromSeconds(10);
+            }
+        }
     }
 }
