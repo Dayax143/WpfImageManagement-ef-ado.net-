@@ -44,8 +44,8 @@
 
             <!-- Navigation Buttons -->
             <UniformGrid Columns="2" HorizontalAlignment="Center" Margin="0,0,0,10">
-                <Button x:Name="btnPrevious" Content="Previous" Width="100" Margin="5" />
-                <Button x:Name="btnNext" Content="Next" Width="100" Margin="5" />
+                <Button x:Name="btnPrevious" Content="Previous" Width="100" Margin="5" Click="btnPrevious_Click" />
+                <Button x:Name="btnNext" Content="Next" Width="100" Margin="5" Click="btnNext_Click" />
             </UniformGrid>
 
             <!-- Backup and Restore -->

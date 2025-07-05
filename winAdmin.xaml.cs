@@ -13,14 +13,14 @@ namespace WpfEFProfile
     /// </summary>  
     public partial class winAdmin : Window
     {
-        private List<TblLora> loraList;
+        private List<Test> test;
         private int currentIndex = 0;
         private string imagePath = string.Empty;
 
         public winAdmin()
         {
             InitializeComponent();
-            loraList = new List<TblLora>();
+            test = new List<Test>();
             dpDate.SelectedDate = DateTime.Now; // Set default date  
         }
 
@@ -163,11 +163,57 @@ namespace WpfEFProfile
             {
                 if (int.TryParse(txtSearch.Text, out int id))
                 {
-                    loadProfileImageAdonet(id);
+                    loadProfileAndDetails(id);
                 }
                 else
                 {
                     MessageBox.Show("Invalid input. Please enter a valid numeric ID.");
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"An error occurred: {ex.Message}");
+            }
+        }
+
+        private void loadProfileAndDetails(int id)
+        {
+            try
+            {
+                using (var context = new MyAppContext())
+                {
+                    var profileData = context.test
+                                             .Where(t => t.Id == id)
+                                             .Select(t => new
+                                             {
+                                                 t.Name,
+                                                 t.Quantity,
+                                                 t.Profile
+                                             })
+                                             .FirstOrDefault();
+
+                    if (profileData != null)
+                    {
+                        txtName.Text = profileData.Name;
+                        txtQuantity.Text = profileData.Quantity.ToString();
+
+                        if (profileData.Profile != null)
+                        {
+                            using (MemoryStream ms = new MemoryStream(profileData.Profile))
+                            {
+                                BitmapImage bitmap = new BitmapImage();
+                                bitmap.BeginInit();
+                                bitmap.StreamSource = ms;
+                                bitmap.CacheOption = BitmapCacheOption.OnLoad;
+                                bitmap.EndInit();
+                                imgTestProfile.Source = bitmap;
+                            }
+                        }
+                    }
+                    else
+                    {
+                        MessageBox.Show("No record found for the given ID.");
+                    }
                 }
             }
             catch (Exception ex)
@@ -313,7 +359,7 @@ namespace WpfEFProfile
         {
             try
             {
-                var dialog = new Microsoft.Win32.OpenFileDialog
+                var dialog = new OpenFileDialog
                 {
                     Filter = "Backup files (*.bak)|*.bak",
                 };
@@ -330,15 +376,98 @@ namespace WpfEFProfile
             }
         }
 
-
-        private void btnBackup_Click(object sender, RoutedEventArgs e)
+        private void btnNext_Click(object sender, RoutedEventArgs e)
         {
+            try
+            {
+                using (var context = new MyAppContext())
+                {
+                    if (!int.TryParse(txtSearch.Text, out currentIndex))
+                    {
+                        MessageBox.Show("Invalid ID.");
+                        return;
+                    }
 
+                    var nextProfile = context.test
+                                             .Where(t => t.Id > currentIndex)
+                                             .OrderBy(t => t.Id)
+                                             .Select(t => new { t.Id, t.Name, t.Quantity, t.Profile })
+                                             .FirstOrDefault();
+
+                    if (nextProfile != null)
+                    {
+                        txtSearch.Text = nextProfile.Id.ToString();
+                        txtName.Text = nextProfile.Name;
+                        txtQuantity.Text = nextProfile.Quantity.ToString();
+
+                        if (nextProfile.Profile != null)
+                        {
+                            using var ms = new MemoryStream(nextProfile.Profile);
+                            var bitmap = new BitmapImage();
+                            bitmap.BeginInit();
+                            bitmap.StreamSource = ms;
+                            bitmap.CacheOption = BitmapCacheOption.OnLoad;
+                            bitmap.EndInit();
+                            imgTestProfile.Source = bitmap;
+                        }
+                    }
+                    else
+                    {
+                        MessageBox.Show("No more records found.");
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"An error occurred: {ex.Message}");
+            }
         }
 
-        private void btnBrowseImage_Click(object sender, RoutedEventArgs e)
+        private void btnPrevious_Click(object sender, RoutedEventArgs e)
         {
+            try
+            {
+                using (var context = new MyAppContext())
+                {
+                    if (!int.TryParse(txtSearch.Text, out currentIndex))
+                    {
+                        MessageBox.Show("Invalid ID.");
+                        return;
+                    }
 
+                    var previousProfile = context.test
+                                                 .Where(t => t.Id < currentIndex)
+                                                 .OrderByDescending(t => t.Id)
+                                                 .Select(t => new { t.Id, t.Name, t.Quantity, t.Profile })
+                                                 .FirstOrDefault();
+
+                    if (previousProfile != null)
+                    {
+                        txtSearch.Text = previousProfile.Id.ToString();
+                        txtName.Text = previousProfile.Name;
+                        txtQuantity.Text = previousProfile.Quantity.ToString();
+
+                        if (previousProfile.Profile != null)
+                        {
+                            using var ms = new MemoryStream(previousProfile.Profile);
+                            var bitmap = new BitmapImage();
+                            bitmap.BeginInit();
+                            bitmap.StreamSource = ms;
+                            bitmap.CacheOption = BitmapCacheOption.OnLoad;
+                            bitmap.EndInit();
+                            imgTestProfile.Source = bitmap;
+                        }
+                    }
+                    else
+                    {
+                        MessageBox.Show("No previous records found.");
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"An error occurred: {ex.Message}");
+            }
         }
     }
 }
