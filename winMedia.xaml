@@ -20,6 +20,10 @@
         <StackPanel Orientation="Horizontal" Grid.Row="0" Margin="0,0,0,10">
             <Button Content="Browse" Click="Browse_Click" Width="100" Margin="0,0,10,0"/>
             <Button Content="Upload" Click="Upload_Click" Width="100"/>
+            <Button Content="Upload PDF" Click="UploadPdf_Click" Width="120" Margin="0,0,10,0"/>
+            <Button Content="View PDF" Click="ViewPdf_Click" Width="120" Margin="10,0,0,0"/>
+
+
         </StackPanel>
 
         <!-- 📝 Metadata Entry -->

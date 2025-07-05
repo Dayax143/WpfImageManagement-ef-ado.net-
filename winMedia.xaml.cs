@@ -4,6 +4,7 @@ using WpfEFProfile.EF;
 using Microsoft.Win32;
 using System.Media;
 using System.Windows.Media;
+using System.Diagnostics;
 
 namespace WpfEFProfile
 {
@@ -16,6 +17,24 @@ namespace WpfEFProfile
         {
             InitializeComponent();
         }
+        public async Task SavePdfToDatabase(string filePath)
+        {
+            var fileInfo = new FileInfo(filePath);
+            var pdf = new tblMedia
+            {
+                FileName = fileInfo.Name,
+                MimeType = "application/pdf",
+                FileSize = fileInfo.Length,
+                FileData = await File.ReadAllBytesAsync(filePath),
+                UploadedAt = DateTime.Now,
+                Description = "Uploaded PDF document"
+            };
+
+            using var context = new MyAppContext();
+            context.tblMedia.Add(pdf);
+            await context.SaveChangesAsync();
+        }
+
         private byte[] _fileData;
         private long _fileSize;
 
@@ -171,6 +190,55 @@ namespace WpfEFProfile
             if (videoPlayer.NaturalDuration.HasTimeSpan)
             {
                 videoPlayer.Position += TimeSpan.FromSeconds(10);
+            }
+        }
+
+        private async void UploadPdf_Click(object sender, RoutedEventArgs e)
+        {
+            var dialog = new Microsoft.Win32.OpenFileDialog
+            {
+                Filter = "PDF files (*.pdf)|*.pdf"
+            };
+
+            if (dialog.ShowDialog() == true)
+            {
+                string filePath = dialog.FileName;
+                var fileInfo = new FileInfo(filePath);
+
+                var pdf = new tblMedia
+                {
+                    FileName = fileInfo.Name,
+                    MimeType = "application/pdf",
+                    FileSize = fileInfo.Length,
+                    FileData = await File.ReadAllBytesAsync(filePath),
+                    UploadedAt = DateTime.Now,
+                    Description = "Uploaded via Upload PDF button"
+                };
+
+                using var context = new MyAppContext();
+                context.tblMedia.Add(pdf);
+                await context.SaveChangesAsync();
+
+                MessageBox.Show("PDF uploaded successfully.");
+            }
+        }
+
+        private async void ViewPdf_Click(object sender, RoutedEventArgs e)
+        {
+            // Example: Get the latest PDF entry
+            using var context = new MyAppContext();
+            var pdf = context.tblMedia.OrderByDescending(p => p.UploadedAt).FirstOrDefault();
+
+            if (pdf?.FileData != null)
+            {
+                string tempPath = Path.Combine(Path.GetTempPath(), pdf.FileName);
+                await File.WriteAllBytesAsync(tempPath, pdf.FileData);
+
+                Process.Start(new ProcessStartInfo(tempPath) { UseShellExecute = true });
+            }
+            else
+            {
+                MessageBox.Show("No PDF available to view.");
             }
         }
     }

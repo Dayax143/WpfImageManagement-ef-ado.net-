@@ -53,7 +53,7 @@ namespace WpfEFProfile.userWinControl {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/WpfEFProfile;V1.0.0.0;component/userwincontrol/uproductview.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/WpfEFProfile;component/userwincontrol/uproductview.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\userWinControl\uProductView.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
